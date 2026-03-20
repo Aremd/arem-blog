@@ -1,0 +1,137 @@
+baseURL = "https://arem-blog.vercel.app"
+title = "Arem"
+theme = "stack"
+defaultContentLanguage = "fr"
+defaultContentLanguageInSubdir = true
+paginate = 10
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+[languages]
+  [languages.fr]
+    languageName = "Français"
+    weight = 1
+    title = "Arem"
+    contentDir = "content/fr"
+    [languages.fr.params]
+      description = "Analyse DeFi indépendante"
+
+  [languages.en]
+    languageName = "English"
+    weight = 2
+    title = "Arem"
+    contentDir = "content/en"
+    [languages.en.params]
+      description = "Independent DeFi Analysis"
+
+[languages.fr.menu]
+  [[languages.fr.menu.main]]
+    name = "Accueil"
+    url = "/fr/"
+    weight = 1
+    [languages.fr.menu.main.params]
+      icon = "home"
+
+  [[languages.fr.menu.main]]
+    name = "Articles"
+    url = "/fr/post/"
+    weight = 2
+    [languages.fr.menu.main.params]
+      icon = "archives"
+
+  [[languages.fr.menu.main]]
+    name = "Tags"
+    url = "/fr/tags/"
+    weight = 3
+    [languages.fr.menu.main.params]
+      icon = "tag"
+
+  [[languages.fr.menu.main]]
+    name = "A propos"
+    url = "/fr/page/about/"
+    weight = 4
+    [languages.fr.menu.main.params]
+      icon = "user"
+
+[languages.en.menu]
+  [[languages.en.menu.main]]
+    name = "Home"
+    url = "/en/"
+    weight = 1
+    [languages.en.menu.main.params]
+      icon = "home"
+
+  [[languages.en.menu.main]]
+    name = "Articles"
+    url = "/en/post/"
+    weight = 2
+    [languages.en.menu.main.params]
+      icon = "archives"
+
+  [[languages.en.menu.main]]
+    name = "Tags"
+    url = "/en/tags/"
+    weight = 3
+    [languages.en.menu.main.params]
+      icon = "tag"
+
+  [[languages.en.menu.main]]
+    name = "About"
+    url = "/en/page/about/"
+    weight = 4
+    [languages.en.menu.main.params]
+      icon = "user"
+
+[params]
+  mainSections = ["post"]
+  [params.sidebar]
+    emoji = ""
+    subtitle = "Independent DeFi Analysis"
+    avatar = "img/avatar.png"
+
+  [params.footer]
+    since = 2025
+
+  [params.article]
+    toc = true
+    readingTime = true
+    [params.article.license]
+      enabled = true
+      local = true
+      src = "img/avatar.png"
+
+  [params.comments]
+    enabled = true
+      local = true
+      src = "img/avatar.png"
+
+  [params.colorScheme]
+    toggle = true
+    default = "auto"
+
+[related]
+  includeNewer = true
+  threshold = 60
+  toLower = false
+  [[related.indices]]
+    name = "tags"
+    weight = 100
+  [[related.indices]]
+    name = "categories"
+    weight = 200
+
+[markup]
+  [markup.highlight]
+    noClasses = false
+  [markup.tableOfContents]
+    endLevel = 4
+    ordered = true
+    startLevel = 2
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[outputs]
+  home = ["HTML", "RSS"]
