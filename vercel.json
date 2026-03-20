@@ -1,0 +1,13 @@
+{
+  "build": {
+    "env": {
+      "HUGO_VERSION": "0.158.0"
+    }
+  },
+  "routes": [
+    {
+      "src": "/",
+      "dest": "/fr/"
+    }
+  ]
+}
