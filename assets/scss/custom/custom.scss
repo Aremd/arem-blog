@@ -1,0 +1,19 @@
+.left-sidebar {
+  .site-name,
+  .site-description,
+  .menu-social {
+    text-align: center;
+    justify-content: center;
+  }
+
+  .site-avatar {
+    display: flex;
+    justify-content: center;
+  }
+
+  .menu-social {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+}
