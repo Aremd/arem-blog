@@ -27,6 +27,19 @@ paginate = 10
       description = "Independent DeFi Analysis"
 
 [languages.fr.menu]
+  [[languages.fr.menu.social]]
+    name = "X"
+    url = "https://x.com/aremd_"
+    weight = 1
+    [languages.fr.menu.social.params]
+      icon = "brand-twitter"
+
+  [[languages.fr.menu.social]]
+    name = "Telegram"
+    url = "https://t.me/arem_d"
+    weight = 2
+    [languages.fr.menu.social.params]
+      icon = "brand-telegram"
   [[languages.fr.menu.main]]
     name = "Accueil"
     url = "/fr/"
@@ -36,17 +49,17 @@ paginate = 10
 
   [[languages.fr.menu.main]]
     name = "Articles"
-    url = "/fr/post/"
+    url = "/fr/page/archives/"
     weight = 2
     [languages.fr.menu.main.params]
       icon = "archives"
 
   [[languages.fr.menu.main]]
-    name = "Tags"
-    url = "/fr/tags/"
+    name = "Search"
+    url = "/fr/search/"
     weight = 3
     [languages.fr.menu.main.params]
-      icon = "tag"
+      icon = "search"
 
   [[languages.fr.menu.main]]
     name = "A propos"
@@ -56,6 +69,19 @@ paginate = 10
       icon = "user"
 
 [languages.en.menu]
+  [[languages.en.menu.social]]
+    name = "X"
+    url = "https://x.com/aremd_"
+    weight = 1
+    [languages.en.menu.social.params]
+      icon = "brand-twitter"
+
+  [[languages.en.menu.social]]
+    name = "Telegram"
+    url = "https://t.me/arem_d"
+    weight = 2
+    [languages.en.menu.social.params]
+      icon = "brand-telegram"
   [[languages.en.menu.main]]
     name = "Home"
     url = "/en/"
@@ -65,17 +91,17 @@ paginate = 10
 
   [[languages.en.menu.main]]
     name = "Articles"
-    url = "/en/post/"
+    url = "/en/page/archives/"
     weight = 2
     [languages.en.menu.main.params]
       icon = "archives"
 
   [[languages.en.menu.main]]
-    name = "Tags"
-    url = "/en/tags/"
+    name = "Search"
+    url = "/en/search/"
     weight = 3
     [languages.en.menu.main.params]
-      icon = "tag"
+      icon = "search"
 
   [[languages.en.menu.main]]
     name = "About"
@@ -88,8 +114,9 @@ paginate = 10
   mainSections = ["post"]
   [params.sidebar]
     emoji = ""
-    subtitle = "Independent DeFi Analysis"
+    subtitle = "Philo DeFi"
     avatar = "img/avatar.png"
+
 
   [params.footer]
     since = 2025
