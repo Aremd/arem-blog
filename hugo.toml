@@ -56,7 +56,7 @@ paginate = 10
 
   [[languages.fr.menu.main]]
     name = "Search"
-    url = "/fr/search/"
+    url = "/fr/page/search/"
     weight = 3
     [languages.fr.menu.main.params]
       icon = "search"
@@ -98,7 +98,7 @@ paginate = 10
 
   [[languages.en.menu.main]]
     name = "Search"
-    url = "/en/search/"
+    url = "/en/page/search/"
     weight = 3
     [languages.en.menu.main.params]
       icon = "search"
@@ -161,4 +161,4 @@ paginate = 10
       unsafe = true
 
 [outputs]
-  home = ["HTML", "RSS"]
+  home = ["HTML", "RSS", "JSON"]
