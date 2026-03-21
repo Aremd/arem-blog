@@ -1,7 +1,7 @@
 baseURL = "https://arem-blog.vercel.app"
 title = "Arem"
 theme = "stack"
-defaultContentLanguage = "fr"
+defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
 paginate = 10
 
@@ -48,13 +48,6 @@ paginate = 10
       icon = "home"
 
   [[languages.fr.menu.main]]
-    name = "Articles"
-    url = "/fr/page/archives/"
-    weight = 2
-    [languages.fr.menu.main.params]
-      icon = "archives"
-
-  [[languages.fr.menu.main]]
     name = "Search"
     url = "/fr/page/search/"
     weight = 3
@@ -90,13 +83,6 @@ paginate = 10
       icon = "home"
 
   [[languages.en.menu.main]]
-    name = "Articles"
-    url = "/en/page/archives/"
-    weight = 2
-    [languages.en.menu.main.params]
-      icon = "archives"
-
-  [[languages.en.menu.main]]
     name = "Search"
     url = "/en/page/search/"
     weight = 3
@@ -114,7 +100,7 @@ paginate = 10
   mainSections = ["post"]
   [params.sidebar]
     emoji = ""
-    subtitle = "Philo DeFi"
+    subtitle = "Philo & DeFi"
     avatar = "img/avatar.png"
 
 

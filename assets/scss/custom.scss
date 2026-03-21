@@ -1,31 +1,40 @@
-.left-sidebar {
+.sidebar.left-sidebar {
   text-align: center;
-  align-items: center;
+
+  header {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
   .site-avatar {
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    justify-content: center;
+    margin: 0 auto;
   }
 
   .site-name {
     text-align: center;
+    width: 100%;
   }
 
   .site-description {
     text-align: center;
+    width: 100%;
   }
 
-  .menu-social {
+  ol.menu-social {
     display: flex;
     justify-content: center;
     gap: 10px;
+    padding-left: 0;
   }
 
-  .menu {
-    li {
-      justify-content: center;
+  ol.menu li {
+    padding-left: 0 !important;
+    margin-left: 0 !important;
+
+    a, div, span {
+      padding-left: 0 !important;
     }
   }
 }
