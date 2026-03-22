@@ -11,7 +11,7 @@ toc: true
 draft: false
 ---
 
-[https://pharos.watch/]
+[Pharos Watch](https://pharos.watch/)
 
 ## **Ce qui ressemblait à un side project a changé de nature**
 
