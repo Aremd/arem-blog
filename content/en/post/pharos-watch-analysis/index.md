@@ -11,7 +11,7 @@ toc: true
 draft: false
 ---
 
-[https://pharos.watch/]
+[Pharos Watch](https://pharos.watch/)
 
 ## **What started small is turning into something much more important**
 
