@@ -1,4 +1,4 @@
-baseURL = "https://arem-blog.vercel.app"
+baseURL = "https://arem.blog"
 title = "Arem"
 theme = "stack"
 defaultContentLanguage = "en"
