@@ -1,22 +1,19 @@
 ---
-title: "Pharos, l'observatoire qui manquait au marché des stablecoins"
-description: "Ce qui ressemblait à un side project commence à changer de nature"
+Title: "Pharos, l’observatoire qui manquait au marché des stablecoins"
+description: "Réflexion"
 date: 2025-03-20
-slug: pharos-watch-analysis
+slug: pharos-the-stablecoin-observatory
 tags:
+  - Stablecoin
   - DeFi
-  - Stablecoins
-  - Pharos
-  - Observabilité
+  - Analyse
 toc: true
 draft: false
 ---
 
-https://pharos.watch/
+[https://pharos.watch/]
 
-
-
-## Ce qui ressemblait à un side project a changé de nature
+## **Ce qui ressemblait à un side project a changé de nature**
 
 J’ai découvert @PharosWatch à un moment où ce n’était encore qu’un dashboard très naissant sur les stablecoins, que @TokenBrice avait commencé à construire presque en passant, en parallèle de ses activités, tout en apprenant à manier Claude Code.
 
@@ -32,8 +29,7 @@ Mais le début d’un outil dont le marché des stablecoins a, à mon sens, de p
 
 Non pas un observatoire de façade, ni une interface de plus venue s’ajouter au bruit ambiant, mais un dispositif capable de rendre ce marché plus lisible à mesure qu’il devient plus dense, plus technique, plus structurant.
 
-
-## Le marché a changé d’échelle, mais pas encore les façons de le lire
+## **Le marché a changé d’échelle, mais pas encore les façons de le lire**
 
 Les stablecoins occupent désormais une place bien plus centrale dans l’infrastructure crypto que les outils d’analyse les plus couramment utilisés ne le laissent parfois penser.
 
@@ -51,8 +47,7 @@ Ce qui manque encore, ce n’est pas tant l’information brute qu’une manièr
 
 C’est précisément à cet endroit que @PharosWatch commence, me semble-t-il, à prendre de la valeur.
 
-
-## Une analyse encore trop souvent bricolée
+## **Une analyse encore trop souvent bricolée**
 
 Même aujourd’hui, une grande partie de l’analyse des stablecoins repose sur un assemblage plus artisanal qu’on ne le reconnaît volontiers.
 
@@ -80,8 +75,7 @@ Il se loge aussi dans la qualité réelle de la liquidité, dans les chaînes de
 
 Il faut des outils qui permettent de lire ce qui soutient — ou fragilise — cette surface.
 
-
-## Ce que Pharos change, ce n’est pas seulement la quantité d’information, mais la forme du problème
+## **Ce que Pharos change, ce n’est pas seulement la quantité d’information, mais la forme du problème**
 
 C’est là, à mes yeux, que réside son intérêt propre.
 
@@ -101,8 +95,7 @@ C’est cela qui le rend intéressant.
 
 Et c’est aussi pour cela qu’il commence, à mon sens, à dessiner une catégorie à part.
 
-
-### Rendre les dépendances visibles
+## **Rendre les dépendances visibles**
 
 L’un des problèmes les plus délicats dans l’analyse des stablecoins, c’est que la stabilité apparente masque souvent une fragilité située en amont.
 
@@ -116,8 +109,7 @@ Et à partir du moment où cette couche devient lisible, on cesse de regarder le
 
 C’est une manière beaucoup plus sérieuse d’approcher les points de fragilité réels.
 
-
-### Déplacer l’attention : du peg vers les conditions de sortie
+## **Déplacer l’attention : du peg vers les conditions de sortie**
 
 C’est un autre déplacement essentiel.
 
@@ -135,8 +127,7 @@ C’est à cet endroit que les stablecoins cessent d’apparaître comme de simp
 
 Non comme une catégorie plate, mais comme des instruments dont les propriétés de sortie — donc les propriétés de risque — varient profondément.
 
-
-### Traiter l’exposition à la censure comme un élément central
+## **Traiter l’exposition à la censure comme un élément central**
 
 C’est un autre point sur lequel beaucoup de lectures de marché me paraissent encore incomplètes.
 
@@ -152,8 +143,7 @@ Cela inclut les restrictions techniques, la discrétion de l’émetteur, la dé
 
 C’est, là encore, la bonne approche.
 
-
-### Voir la pression monter avant la rupture
+## **Voir la pression monter avant la rupture**
 
 L’un des vrais tests pour ce type de projet est simple : aide-t-il à voir la pression s’accumuler avant que la rupture ne devienne évidente pour tout le monde ?
 
@@ -173,8 +163,7 @@ Il devient un instrument de lecture du stress en formation.
 
 Et plus le marché se complexifie, plus cette fonction prend de la valeur.
 
-
-### Redonner de la mémoire à un marché qui oublie vite
+## **Redonner de la mémoire à un marché qui oublie vite**
 
 Ce point compte plus qu’on ne le dit souvent.
 
@@ -192,8 +181,7 @@ Se souvenir des mécanismes brisés, des pegs rompus, des fragilités déjà ren
 
 En ce sens, la mémoire n’est pas un supplément. Elle participe pleinement de l’intelligence du marché.
 
-
-## Les stablecoins ne forment plus une catégorie simple
+## **Les stablecoins ne forment plus une catégorie simple**
 
 C’est peut-être, au fond, la raison principale pour laquelle un projet comme @PharosWatch devient important maintenant.
 
@@ -221,12 +209,9 @@ Du classement vers la forme.
 
 De la part de marché vers l’architecture monétaire.
 
+## **Pourquoi je ne vois plus Pharos comme un simple dashboard utile**
 
-
-
-## Pourquoi je ne vois plus Pharos comme un simple dashboard utile
-
-C’C’est pour cela que je n’arrive plus vraiment à penser @PharosWatch comme un simple dashboard utile sur les stablecoins.
+C’est pour cela que je n’arrive plus vraiment à penser @PharosWatch comme un simple dashboard utile sur les stablecoins.
 
 La formule n’est pas fausse. Elle est simplement devenue trop étroite.
 
@@ -244,8 +229,7 @@ Il tente de rendre le marché lisible comme un ensemble de constructions monéta
 
 C’est cela qui m’intéresse. Et c’est aussi pour cela que je pense qu’il mérite une attention particulière.
 
-
-## Pourquoi cette fonction va compter de plus en plus
+## **Pourquoi cette fonction va compter de plus en plus**
 
 Cette fonction ne devrait prendre que davantage de valeur dans la période qui s’ouvre.
 
@@ -260,8 +244,7 @@ Ce qui compte, c’est la capacité à lire la structure. À comprendre où la f
 
 C’est pour cela que @PharosWatch me paraît arriver au bon moment, comme l’une des premières tentatives sérieuses pour construire la couche de compréhension dont ce marché commence réellement à avoir besoin.
 
-
-## Ce qu’il devient intéressant de regarder maintenant
+## **Ce qu’il devient intéressant de regarder maintenant**
 
 Le plus intéressant, à ce stade, est ce que @PharosWatch laisse entrevoir.
 
