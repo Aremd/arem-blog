@@ -1,9 +1,27 @@
 <script defer src="https://cloud.umami.is/script.js" data-website-id="d0cb1e9f-bdd5-49c4-8f77-268f089f3e16"></script>
 <style>
+:root {
+  --accent-color: #5b9bd5;
+  --accent-color-darker: #3a7cc3;
+  --card-text-color-main: #e8e8e8;
+}
+
+[data-scheme="dark"] {
+  --body-background: #0f1419;
+  --card-background: #1c2530;
+  --card-separator-color: #2a3542;
+  --accent-color: #5b9bd5;
+}
+
+[data-scheme="light"] {
+  --accent-color: #3a7cc3;
+}
+
 aside.sidebar.left-sidebar #i18n-switch,
 aside.sidebar.left-sidebar #dark-mode-toggle {
   padding-left: 40px !important;
 }
+
 aside.sidebar.left-sidebar ol.menu-social {
   margin-bottom: 35px !important;
 }
