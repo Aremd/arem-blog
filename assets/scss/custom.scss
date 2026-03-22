@@ -1,40 +1,15 @@
-.sidebar.left-sidebar {
-  text-align: center;
+:root {
+  --accent-color: #5b9bd5 !important;
+  --accent-color-darker: #3a7cc3 !important;
+}
 
-  header {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+[data-scheme="dark"] {
+  --body-background: #0f1419 !important;
+  --card-background: #1c2530 !important;
+  --card-separator-color: #2a3542 !important;
+  --accent-color: #5b9bd5 !important;
+}
 
-  .site-avatar {
-    margin: 0 auto;
-  }
-
-  .site-name {
-    text-align: center;
-    width: 100%;
-  }
-
-  .site-description {
-    text-align: center;
-    width: 100%;
-  }
-
-  ol.menu-social {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    padding-left: 0;
-  }
-
-  ol.menu li {
-    padding-left: 0 !important;
-    margin-left: 0 !important;
-
-    a, div, span {
-      padding-left: 0 !important;
-    }
-  }
+[data-scheme="light"] {
+  --accent-color: #3a7cc3 !important;
 }
