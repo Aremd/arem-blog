@@ -1,31 +1,23 @@
 <script defer src="https://cloud.umami.is/script.js" data-website-id="d0cb1e9f-bdd5-49c4-8f77-268f089f3e16"></script>
 <style>
-.left-sidebar {
+/* SIDEBAR CENTERING */
+aside.sidebar.left-sidebar.sticky {
   align-items: stretch !important;
 }
-.left-sidebar header {
-  text-align: center !important;
-  display: flex !important;
-  flex-direction: column !important;
-  align-items: center !important;
-  width: 100% !important;
-  padding-left: 0 !important;
-  padding-right: 0 !important;
-}
-.left-sidebar .site-avatar {
-  display: flex !important;
-  justify-content: center !important;
-  width: 100% !important;
-}
-.left-sidebar .site-name {
+aside.sidebar.left-sidebar.sticky header {
   text-align: center !important;
   width: 100% !important;
 }
-.left-sidebar .site-description {
-  text-align: center !important;
-  width: 100% !important;
+aside.sidebar.left-sidebar.sticky .site-avatar {
+  margin: 0 auto !important;
 }
-.left-sidebar ol.menu-social {
+aside.sidebar.left-sidebar.sticky .site-name {
+  text-align: center !important;
+}
+aside.sidebar.left-sidebar.sticky .site-description {
+  text-align: center !important;
+}
+aside.sidebar.left-sidebar.sticky ol.menu-social {
   display: flex !important;
   justify-content: center !important;
   gap: 10px !important;
@@ -33,6 +25,8 @@
   width: 100% !important;
   margin-bottom: 35px !important;
 }
+
+/* ARTICLES */
 .article-content {
   font-family: -apple-system, BlinkMacSystemFont, sans-serif !important;
   font-size: 16px !important;
@@ -67,6 +61,8 @@
   font-weight: 700 !important;
   line-height: 1.3 !important;
 }
+
+/* MOBILE */
 @media (max-width: 768px) {
   .article-content,
   .article-content p,
