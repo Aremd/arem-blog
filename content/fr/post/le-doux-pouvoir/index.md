@@ -8,6 +8,7 @@ tags:
   - DeFi
   - Philosophie
 toc: true
+image: cover.svg
 draft: false
 ---
 
