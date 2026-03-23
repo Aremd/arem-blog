@@ -8,7 +8,6 @@ tags:
   - DeFi
   - Analyse
 toc: true
-image: cover.svg
 draft: false
 ---
 
@@ -16,7 +15,7 @@ draft: false
 
 ## **Ce qui ressemblait à un side project a changé de nature**
 
-J’ai découvert @PharosWatch à un moment où ce n’était encore qu’un dashboard très naissant sur les stablecoins, que @TokenBrice avait commencé à construire presque en passant, en parallèle de ses activités, tout en apprenant à manier Claude Code.
+J’ai découvert Pharos à un moment où ce n’était encore qu’un dashboard très naissant sur les stablecoins, que @TokenBrice avait commencé à construire presque en passant, en parallèle de ses activités, tout en apprenant à manier Claude Code.
 
 À ce stade, on pouvait facilement y voir une expérimentation prometteuse, un projet annexe parmi d’autres, une tentative intelligente mais encore en formation.
 
@@ -80,7 +79,7 @@ Il faut des outils qui permettent de lire ce qui soutient — ou fragilise — c
 
 C’est là, à mes yeux, que réside son intérêt propre.
 
-La valeur de @PharosWatch ne tient pas simplement au fait qu’il apporte davantage de données. Beaucoup d’outils savent empiler des données.
+La valeur de Pharos ne tient pas simplement au fait qu’il apporte davantage de données. Beaucoup d’outils savent empiler des données.
 
 Ce qui compte davantage, c’est qu’il commence à reconfigurer le problème dans une forme plus lisible.
 
@@ -90,7 +89,7 @@ Et cela change beaucoup.
 
 Dans la plupart des outils, les signaux restent séparés. On regarde un indicateur, puis un autre, puis un autre encore, et l’on fait soi-même le travail de synthèse.
 
-@PharosWatch commence à faire autre chose. Il tend à transformer une lecture éclatée en une lecture plus structurée, plus continue, plus proche d’un véritable tableau de situation du monde des stablecoins.
+Pharos commence à faire autre chose. Il tend à transformer une lecture éclatée en une lecture plus structurée, plus continue, plus proche d’un véritable tableau de situation du monde des stablecoins.
 
 C’est cela qui le rend intéressant.
 
@@ -104,7 +103,7 @@ Un stablecoin peut sembler parfaitement solide tout en reposant, en arrière-pla
 
 Si les outils sont trop superficiels, ou trop fragmentés, ce type de dépendance passe facilement inaperçu.
 
-@PharosWatch aide à le rendre beaucoup plus visible.
+Pharos aide à le rendre beaucoup plus visible.
 
 Et à partir du moment où cette couche devient lisible, on cesse de regarder les stablecoins comme des unités isolées. On commence à les lire comme des constructions monétaires appuyées sur d’autres constructions.
 
@@ -170,7 +169,7 @@ Ce point compte plus qu’on ne le dit souvent.
 
 La plupart des dashboards suivent ce qui est vivant, actif, en circulation. Ils sont naturellement orientés vers le marché présent.
 
-@PharosWatch suit aussi ce qui a échoué.
+Pharos suit aussi ce qui a échoué.
 
 Et cela a de l’importance, parce que le marché des stablecoins souffre souvent d’une forme d’amnésie récurrente. Des schémas déjà visibles dans des échecs passés reviennent sous une forme légèrement différente, puis sont redécouverts comme s’ils étaient nouveaux.
 
@@ -184,7 +183,7 @@ En ce sens, la mémoire n’est pas un supplément. Elle participe pleinement de
 
 ## **Les stablecoins ne forment plus une catégorie simple**
 
-C’est peut-être, au fond, la raison principale pour laquelle un projet comme @PharosWatch devient important maintenant.
+C’est peut-être, au fond, la raison principale pour laquelle un projet comme Pharos devient important maintenant.
 
 Les stablecoins ne constituent plus une catégorie homogène.
 
@@ -212,11 +211,11 @@ De la part de marché vers l’architecture monétaire.
 
 ## **Pourquoi je ne vois plus Pharos comme un simple dashboard utile**
 
-C’est pour cela que je n’arrive plus vraiment à penser @PharosWatch comme un simple dashboard utile sur les stablecoins.
+C’est pour cela que je n’arrive plus vraiment à penser Pharos comme un simple dashboard utile sur les stablecoins.
 
 La formule n’est pas fausse. Elle est simplement devenue trop étroite.
 
-Ce que @PharosWatch est en train de devenir — ou, du moins, ce vers quoi il semble se diriger — ressemble davantage à l’observatoire qui manquait à ce marché.
+Ce que Pharos est en train de devenir — ou, du moins, ce vers quoi il semble se diriger — ressemble davantage à l’observatoire qui manquait à ce marché.
 
 Non pas parce qu’il remplacerait le reste.
 
@@ -224,7 +223,7 @@ Ce n’est pas le cas.
 
 @DefiLlama garde sa fonction. Dune garde la sienne. La documentation des émetteurs reste nécessaire. X conserve aussi son rôle, pour le meilleur et pour le pire.
 
-Mais @PharosWatch commence à occuper une place différente dans cette écologie.
+Mais Pharos commence à occuper une place différente dans cette écologie.
 
 Il tente de rendre le marché lisible comme un ensemble de constructions monétaires dotées de dépendances, de contraintes et de modes de défaillance distincts.
 
@@ -243,14 +242,14 @@ Si le marché s’éloigne d’un petit noyau de wrappers dollar dominants pour 
 Ce qui compte, c’est la capacité à lire la structure. À comprendre où la fragilité se déplace.
 À distinguer une stabilité robuste d’une stabilité conditionnelle, empruntée, ou simplement cosmétique. À savoir ce qui soutient réellement la surface.
 
-C’est pour cela que @PharosWatch me paraît arriver au bon moment, comme l’une des premières tentatives sérieuses pour construire la couche de compréhension dont ce marché commence réellement à avoir besoin.
+C’est pour cela que Pharos me paraît arriver au bon moment, comme l’une des premières tentatives sérieuses pour construire la couche de compréhension dont ce marché commence réellement à avoir besoin.
 
 ## **Ce qu’il devient intéressant de regarder maintenant**
 
-Le plus intéressant, à ce stade, est ce que @PharosWatch laisse entrevoir.
+Le plus intéressant, à ce stade, est ce que Pharos laisse entrevoir.
 
 Si les stablecoins deviennent un environnement monétaire plus complexe, alors ils auront besoin de meilleurs outils pour être observés, comparés et compris comme des systèmes.
 
-C’est à cet endroit précis que @PharosWatch semble commencer à se positionner. D’autres l’accompagneront. Mais peu.
+C’est à cet endroit précis que Pharos semble commencer à se positionner. D’autres l’accompagneront. Mais peu.
 
 Et c’est pour cela qu’il mérite d’être suivi de près.
