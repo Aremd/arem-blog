@@ -1,7 +1,7 @@
 ---
 title: "Le doux pouvoir : gouverner sans contraindre"
 description: "Réflexion libre"
-date: 2025-03-22
+date: 2026-03-22
 slug: le-doux-pouvoir
 tags:
   - Gouvernance
