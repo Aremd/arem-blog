@@ -2,14 +2,28 @@
   --accent-color: #5b9bd5 !important;
   --accent-color-darker: #3a7cc3 !important;
 }
-
 [data-scheme="dark"] {
   --body-background: #0f1419 !important;
   --card-background: #1c2530 !important;
   --card-separator-color: #2a3542 !important;
   --accent-color: #5b9bd5 !important;
 }
-
 [data-scheme="light"] {
   --accent-color: #3a7cc3 !important;
+}
+.sidebar.left-sidebar.sticky header {
+  width: 100% !important;
+  align-items: center !important;
+}
+.sidebar.left-sidebar.sticky header .site-avatar {
+  margin: 0 auto !important;
+}
+.sidebar.left-sidebar.sticky header .site-meta {
+  text-align: center !important;
+  align-items: center !important;
+}
+.sidebar.left-sidebar.sticky ol.menu-social {
+  justify-content: center !important;
+  width: 100% !important;
+  margin-bottom: 35px !important;
 }
