@@ -1,7 +1,7 @@
 ---
 Title: How Can an Open Collective Hold Together?
 Description: "A free reflection on governance, legitimacy, and collective order"
-date: 2025-03-22
+date: 2026-03-22
 Slug: gentle-power
 tags:
 - Governance
@@ -12,23 +12,23 @@ draft: false
 ---
 
 
-### Why voting and incentives are not enough
+## Why voting and incentives are not enough
 
 *A sound system of governance does not rest on voting mechanisms, incentives, or technical excellence alone. It also requires a legible direction, credible norms, forms of appropriation, and figures capable of embodying what they defend. The real question, then, is not only how decisions are made. It is this: how does a common order emerge that free participants can regard as legitimate, useful, and worth sustaining?*
 
-### Beyond command: the problem of sustaining participation
+## Beyond command: the problem of sustaining participation
 
 We still tend to associate power with the ability to impose. To govern, on this view, is first to command, arbitrate, discipline. That picture is not always wrong. But it quickly becomes inadequate when what must be sustained is an open collective, composed of free, mobile, heterogeneous individuals who can withdraw more easily than they can be made to obey.
 
 In such a setting, the central problem is not simply how to secure a decision. It is how to sustain participation over time. A collective does not hold together for long through constraint alone, or even through the mere convergence of interests. It holds when a shared direction becomes clear enough, just enough, and credible enough to be taken up by those who participate in it.
 
-### Gentle power: orient rather than compel
+## Gentle power: orient rather than compel
 
 That is what the idea of *gentle power* makes it possible to think.
 
 We can understand it as a form of government that seeks less to compel than to orient. It abolishes neither authority nor rules, but places them within a more demanding frame: a line must appear not merely acceptable, but worthy of being followed. Gentle power works through vision, example, shared norms, and the quality of institutions and relationships. It does not produce mere compliance; it seeks assent.
 
-### Gentle power vs. shallow influence
+## Gentle power vs. shallow influence
 
 This is also what distinguishes it from influence in the shallower sense of the term. Marketing and storytelling can capture attention, sometimes even enthusiasm. They are not enough to found a common order. Gentle power does not simply aim to persuade an audience. It aims to make conscious cooperation possible: a form of cooperation in which members of a collective can recognize the reasons for acting as reasons they can genuinely make their own.
 
@@ -46,21 +46,21 @@ It also changes the way legitimacy is understood. Legitimacy does not flow from 
 
 And it changes the way a collective endures. Constraint may secure immediate execution; it rarely produces deep fidelity. For an organization to last, something else must take hold: the sense that it deserves time, attention, perhaps even a measure of renunciation. That is the point at which norms and values cease to be decorative. They become conditions of stability.
 
-### Why this matters for protocols and DAOs
+## Why this matters for protocols and DAOs
 
 This is especially important for protocols and DAOs. In such environments, coercion is structurally limited. One can leave a community, stop contributing, sell tokens, fork the code, or direct one’s attention elsewhere. A protocol therefore cannot rely, over time, on obedience. It must generate trust, legibility, a sense of fairness, and a form of attachment that is not purely opportunistic.
 
 And yet many organizations are better at aggregating preferences than at articulating a common direction. They excel at managing technical variables, but struggle with deeper questions: what matters here? What kind of conduct do we want to encourage? What limits do we want to set? What deserves protection beyond immediate utility?
 
-### Where gentle power begins
+## Where gentle power begins
 
 *Gentle power* begins precisely there: in the capacity to form a shared sense rather than merely juxtapose interests.
 
-### Norms as operative architecture
+## Norms as operative architecture
 
 That requires serious work on norms. Not abstract values filed away in a manifesto with no practical force, but operative standards: what is valued in exchanges, what is expected of central figures, what is built into rituals, tools, contribution mechanisms, and forms of recognition. Culture is not an optional layer. It is an essential part of the architecture of governance.
 
-### Narrative and play
+## Narrative and play
 
 This is why narrative and play matter here.
 
@@ -68,22 +68,22 @@ Narratives, when they are not reduced to exercises in communication, give shape 
 
 Play serves a related purpose. It creates a space in which rules can be learned, situations tested, roles explored, and the effects of an institutional design grasped without immediately hardening into rigid norms. In both cases, the point is not to entertain the collective, but to form it.
 
-### Risks and conditions of legitimacy
+## Risks and conditions of legitimacy
 
 None of this should be romanticized. *Gentle power* can slide into a more palatable form of manipulation. The language of vision, values, or community can easily conceal quite conventional relations of power. That is why this form of power is legitimate only on one strict condition: those who orient others must themselves accept demanding standards of coherence, transparency, and contestability.
 
-### Structure still required
+## Structure still required
 
 Nor can any organization rest on diffuse assent alone. It also needs rules, procedures, responsibilities, and, at times, sanctions. *Gentle power* does not abolish structure; it makes it finer and more inhabitable. It does not replace institutions. It raises the standard they must meet.
 
-### Time and political work
+## Time and political work
 
 And this approach takes time. Forming a collective capable of sustaining a shared horizon, living through disagreement, and integrating difference without dissolving into fragmentation requires real political work. It requires pedagogy, spaces of translation, suitable formats, and a certain patience. Without that, the appeal to assent remains verbal.
 
-### What gentle power is (and is not)
+## What gentle power is (and is not)
 
 *Gentle power* is therefore neither weakness nor vague moralism. It is a demanding hypothesis about how free beings may be guided. It reminds us that a collective becomes more solid when it learns to elicit forms of conduct rather than extract behavior. And in the end, the quality of an organization may be measured less by its capacity to constrain than by its capacity to make people willing.
 
 ### Note
 
-*Note* — This reflection stands at the intersection of several lines of thought: Spinoza on affects and the power to act; Tarde on imitation and the social circulation of conduct; Foucault on power as a productive relation; Charles Taylor on the social imaginary and on forms of recognition that make a common order livable. One distinction should nevertheless be kept clear: *soft power*, in the strict sense, belongs first to Joseph Nye, who defined it as a power of attraction rather than coercion.
+*Note — This reflection stands at the intersection of several lines of thought: Spinoza on affects and the power to act; Tarde on imitation and the social circulation of conduct; Foucault on power as a productive relation; Charles Taylor on the social imaginary and on forms of recognition that make a common order livable. One distinction should nevertheless be kept clear: *soft power*, *in the strict sense, belongs first to Joseph Nye, who defined it as a power of attraction rather than coercion*.*
