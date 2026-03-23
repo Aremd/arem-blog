@@ -1,7 +1,7 @@
 ---
 Title: "Pharos, l’observatoire qui manquait au marché des stablecoins"
 description: "Réflexion"
-date: 2025-03-20
+date: 2026-03-20
 slug: pharos-the-stablecoin-observatory
 tags:
   - Stablecoin
