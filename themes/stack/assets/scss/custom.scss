@@ -11,3 +11,35 @@
 [data-scheme="light"] {
   --accent-color: #3a7cc3 !important;
 }
+
+/* Article page header hierarchy
+   Scope:
+   - only the main article header
+   - does not affect cards, lists, related content, or compact links
+
+   Intent:
+   - reinforce title dominance
+   - keep subtitle clearly secondary
+   - preserve the current typeface
+*/
+.main-article .article-header {
+  .article-title {
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.12;
+
+    @include respond(xl) {
+      font-size: 3.5rem;
+    }
+  }
+
+  .article-subtitle {
+    font-weight: 400;
+    font-size: 1.55rem;
+    line-height: 1.5;
+  }
+
+  .article-title-wrapper {
+    gap: 10px;
+  }
+}
