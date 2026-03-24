@@ -8,7 +8,7 @@ tags:
   - DeFi
   - Analysis
 toc: true
-image: cover.svg
+image: cover.png
 draft: false
 ---
 
