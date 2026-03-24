@@ -1,4 +1,4 @@
-baseURL = "https://arem.blog"
+baseURL = "https://www.arem.blog"
 title = "Arem"
 theme = "stack"
 defaultContentLanguage = "en"
