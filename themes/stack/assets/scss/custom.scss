@@ -139,3 +139,51 @@
     }
   }
 }
+
+/* Homepage article list hierarchy
+   Scope:
+   - default article list on the homepage
+   - does not affect article pages, compact lists, or tile shelves
+
+   Intent:
+   - make homepage entries feel more editorial
+   - strengthen title/subtitle/meta hierarchy
+   - improve scanability while preserving the current typeface
+*/
+.article-list {
+  article {
+    .article-details {
+      gap: var(--spacing-lg);
+    }
+
+    .article-title {
+      font-weight: 700;
+      font-size: 2.65rem;
+      line-height: 1.14;
+
+      @include respond(xl) {
+        font-size: 3.05rem;
+      }
+    }
+
+    .article-subtitle {
+      font-size: 1.5rem;
+      line-height: 1.45;
+
+      @include respond(xl) {
+        font-size: 1.65rem;
+      }
+    }
+
+    .article-meta {
+      gap: var(--spacing-sm);
+    }
+
+    .article-meta,
+    .article-meta time,
+    .article-meta a,
+    .article-meta span {
+      font-size: 1.3rem;
+    }
+  }
+}
