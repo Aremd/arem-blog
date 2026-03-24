@@ -1,11 +1,10 @@
-{{- $pageTitle := .Title -}}
+{{- $pageTitle := default .Title .Params.socialTitle -}}
 {{- $siteTitle := .Site.Title -}}
 {{- $paginator := partial "helper/paginator.html" . -}}
 
 {{- $title := slice -}}
 
 {{- if and $paginator $paginator.HasPrev -}}
-    <!-- Add page number-->
     {{ $title = $title | append (printf "Page %d" $paginator.PageNumber) }}
 {{- end -}}
 

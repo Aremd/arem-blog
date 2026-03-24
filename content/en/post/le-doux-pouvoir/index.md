@@ -1,5 +1,6 @@
 ---
 Title: How Can an Open Collective Hold Together?
+socialTitle: What Holds an Open Collective Together?
 Description: "A free reflection on governance, legitimacy, and collective order"
 date: 2026-03-22
 Slug: gentle-power

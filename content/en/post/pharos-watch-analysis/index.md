@@ -1,5 +1,6 @@
 ---
 title: "Pharos Is Becoming the Stablecoin Observatory This Market Has Been Missing"
+socialTitle: "Pharos, the Stablecoin Observatory This Market Needed"
 description: "A personal reflexion"
 date: 2026-03-20
 slug: pharos-the-stablecoin-observatory
