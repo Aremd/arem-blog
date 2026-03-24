@@ -98,3 +98,44 @@
     margin-bottom: 0.7em;
   }
 }
+
+/* Related content shelf
+   Scope:
+   - article related content only
+   - does not affect other tile lists on the site
+
+   Intent:
+   - make the shelf feel lighter and more editorial
+   - tighten spacing and reduce visual heaviness
+   - keep the component easy to understand and maintain
+*/
+.article-related-content {
+  margin-top: var(--spacing-2xl);
+  --article-tile-width: 280px;
+  --article-tile-height: 180px;
+
+  .section-title {
+    margin-bottom: var(--spacing-md);
+  }
+
+  .subsection-list {
+    .article-list--tile {
+      gap: var(--spacing-md);
+    }
+  }
+
+  .article-list--tile article {
+    .article-details {
+      padding: var(--spacing-md);
+    }
+
+    .article-title {
+      font-size: 1.7rem;
+      line-height: 1.25;
+
+      @include respond(sm) {
+        font-size: 1.9rem;
+      }
+    }
+  }
+}
