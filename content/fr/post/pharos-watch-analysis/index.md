@@ -9,6 +9,7 @@ tags:
   - Analyse
 toc: true
 draft: false
+image: cover.png
 ---
 
 [Pharos Watch](https://pharos.watch/)
