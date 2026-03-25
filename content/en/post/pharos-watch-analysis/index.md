@@ -11,6 +11,7 @@ tags:
   - DeFi
   - Analysis
 toc: true
+coverTheme: pharos
 image: cover.png
 draft: false
 ---

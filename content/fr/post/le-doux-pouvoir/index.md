@@ -9,6 +9,7 @@ tags:
   - DeFi
   - Philosophie
 toc: true
+coverTheme: governance
 image: cover.png
 draft: false
 ---

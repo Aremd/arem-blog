@@ -10,6 +10,7 @@ tags:
   - Analyse
 toc: true
 draft: false
+coverTheme: pharos
 image: cover.png
 ---
 
