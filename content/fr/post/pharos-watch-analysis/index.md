@@ -11,7 +11,7 @@ tags:
 toc: true
 draft: false
 coverTheme: pharos
-image: cover.png
+image: cover.png?v=2
 ---
 
 [Pharos Watch](https://pharos.watch/)
