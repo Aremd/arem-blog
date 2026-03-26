@@ -12,7 +12,7 @@ tags:
   - Analysis
 toc: true
 coverTheme: pharos
-image: cover.png?v=2
+image: cover.png
 draft: false
 ---
 
