@@ -1,1 +1,72 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630"><defs><linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" style="stop-color:#152540"/><stop offset="100%" style="stop-color:#1e3555"/></linearGradient></defs><rect width="1200" height="630" fill="url(#g)"/><path d="M0,400 Q200,150 500,300 Q800,450 1200,200" fill="none" stroke="#6db0e8" stroke-width="4" opacity="0.7"/><path d="M0,450 Q250,200 550,350 Q850,500 1200,250" fill="none" stroke="#6db0e8" stroke-width="3" opacity="0.5"/><path d="M0,350 Q150,180 450,280 Q750,400 1200,180" fill="none" stroke="#4a90c9" stroke-width="2" opacity="0.4"/><circle cx="250" cy="230" r="8" fill="#7ec0f5" opacity="0.8"/><circle cx="500" cy="300" r="14" fill="#7ec0f5" opacity="0.6"/><circle cx="500" cy="300" r="30" fill="#7ec0f5" opacity="0.12"/><circle cx="750" cy="420" r="8" fill="#7ec0f5" opacity="0.7"/><circle cx="1000" cy="230" r="7" fill="#7ec0f5" opacity="0.6"/><circle cx="150" cy="350" r="4" fill="#7ec0f5" opacity="0.5"/><circle cx="400" cy="200" r="4" fill="#7ec0f5" opacity="0.45"/><circle cx="650" cy="350" r="5" fill="#7ec0f5" opacity="0.5"/><circle cx="900" cy="300" r="4" fill="#7ec0f5" opacity="0.45"/><circle cx="1100" cy="280" r="4" fill="#7ec0f5" opacity="0.4"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0e1c2f"/>
+      <stop offset="100%" style="stop-color:#172b45"/>
+    </linearGradient>
+    <linearGradient id="fade-l" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#0e1c2f;stop-opacity:1"/>
+      <stop offset="18%" style="stop-color:#0e1c2f;stop-opacity:0"/>
+    </linearGradient>
+    <linearGradient id="fade-r" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="82%" style="stop-color:#172b45;stop-opacity:0"/>
+      <stop offset="100%" style="stop-color:#172b45;stop-opacity:1"/>
+    </linearGradient>
+    <radialGradient id="glow-a" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#90d0f0;stop-opacity:0.2"/>
+      <stop offset="100%" style="stop-color:#90d0f0;stop-opacity:0"/>
+    </radialGradient>
+    <radialGradient id="glow-b" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#bab0f0;stop-opacity:0.18"/>
+      <stop offset="100%" style="stop-color:#bab0f0;stop-opacity:0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Lueurs diffuses le long des courbes -->
+  <ellipse cx="500" cy="300" rx="280" ry="120" fill="url(#glow-a)"/>
+  <ellipse cx="700" cy="340" rx="260" ry="100" fill="url(#glow-b)"/>
+
+  <!-- Courbes principales — intensité B -->
+  <path d="M0,420 Q200,130 500,295 Q800,460 1200,190" fill="none" stroke="#90d0f0" stroke-width="3" opacity="0.82"/>
+  <path d="M0,470 Q250,180 550,345 Q850,510 1200,240" fill="none" stroke="#7bbde8" stroke-width="2.5" opacity="0.65"/>
+  <path d="M0,370 Q150,160 450,275 Q750,400 1200,165" fill="none" stroke="#7ec0f5" stroke-width="2" opacity="0.55"/>
+
+  <!-- Courbes secondaires -->
+  <path d="M0,500 Q300,260 600,380 Q900,500 1200,310" fill="none" stroke="#5b88b0" stroke-width="1.5" opacity="0.4"/>
+  <path d="M0,330 Q200,120 480,255 Q760,380 1200,145" fill="none" stroke="#5b88b0" stroke-width="1" opacity="0.3"/>
+
+  <!-- Dots principaux sur courbe 1 -->
+  <circle cx="250" cy="228" r="9" fill="#90d0f0" opacity="0.92"/>
+  <circle cx="250" cy="228" r="22" fill="#90d0f0" opacity="0.15"/>
+  <circle cx="500" cy="295" r="13" fill="#7ec0f5" opacity="0.88"/>
+  <circle cx="500" cy="295" r="32" fill="#7ec0f5" opacity="0.12"/>
+  <circle cx="750" cy="412" r="9" fill="#90d0f0" opacity="0.85"/>
+  <circle cx="750" cy="412" r="20" fill="#90d0f0" opacity="0.13"/>
+  <circle cx="1000" cy="228" r="8" fill="#7bbde8" opacity="0.82"/>
+  <circle cx="1000" cy="228" r="18" fill="#7bbde8" opacity="0.11"/>
+
+  <!-- Dots secondaires sur courbe 2 -->
+  <circle cx="180" cy="388" r="6" fill="#bab0f0" opacity="0.78"/>
+  <circle cx="400" cy="278" r="5" fill="#bab0f0" opacity="0.72"/>
+  <circle cx="650" cy="348" r="6" fill="#7ec0f5" opacity="0.75"/>
+  <circle cx="900" cy="302" r="5" fill="#7bbde8" opacity="0.7"/>
+  <circle cx="1100" cy="272" r="5" fill="#7bbde8" opacity="0.65"/>
+
+  <!-- Dots tertiaires -->
+  <circle cx="130" cy="312" r="3.5" fill="#7ec0f5" opacity="0.55"/>
+  <circle cx="360" cy="208" r="3" fill="#7ec0f5" opacity="0.5"/>
+  <circle cx="820" cy="265" r="3.5" fill="#7ec0f5" opacity="0.52"/>
+  <circle cx="1060" cy="178" r="3" fill="#7ec0f5" opacity="0.48"/>
+
+  <!-- Liaisons légères entre dots proches -->
+  <line x1="250" y1="228" x2="400" y2="278" stroke="#7ec0f5" stroke-width="0.8" opacity="0.28"/>
+  <line x1="500" y1="295" x2="650" y2="348" stroke="#7ec0f5" stroke-width="0.8" opacity="0.25"/>
+  <line x1="750" y1="412" x2="900" y2="302" stroke="#7ec0f5" stroke-width="0.8" opacity="0.25"/>
+
+  <rect x="0" y="0" width="1200" height="630" fill="url(#fade-l)"/>
+  <rect x="0" y="0" width="1200" height="630" fill="url(#fade-r)"/>
+  <rect x="0" y="0" width="1200" height="80" fill="#0e1c2f" opacity="0.52"/>
+  <rect x="0" y="575" width="1200" height="55" fill="#172b45" opacity="0.52"/>
+</svg>

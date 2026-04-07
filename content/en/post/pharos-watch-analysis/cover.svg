@@ -1,1 +1,91 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630"><defs><linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" style="stop-color:#152540"/><stop offset="100%" style="stop-color:#1e3555"/></linearGradient></defs><rect width="1200" height="630" fill="url(#g)"/><circle cx="600" cy="300" r="200" fill="none" stroke="#6db0e8" stroke-width="2.5" opacity="0.45"/><circle cx="600" cy="300" r="140" fill="none" stroke="#6db0e8" stroke-width="2" opacity="0.55"/><circle cx="600" cy="300" r="80" fill="none" stroke="#6db0e8" stroke-width="1.5" opacity="0.65"/><circle cx="600" cy="300" r="280" fill="none" stroke="#4a90c9" stroke-width="1.5" opacity="0.3"/><circle cx="600" cy="300" r="14" fill="#7ec0f5" opacity="0.8"/><circle cx="600" cy="300" r="30" fill="#7ec0f5" opacity="0.15"/><circle cx="380" cy="200" r="10" fill="#7ec0f5" opacity="0.7"/><circle cx="820" cy="400" r="10" fill="#7ec0f5" opacity="0.7"/><circle cx="450" cy="450" r="8" fill="#7ec0f5" opacity="0.6"/><circle cx="780" cy="180" r="8" fill="#7ec0f5" opacity="0.6"/><circle cx="250" cy="350" r="6" fill="#7ec0f5" opacity="0.55"/><circle cx="950" cy="250" r="6" fill="#7ec0f5" opacity="0.55"/><circle cx="200" cy="150" r="5" fill="#7ec0f5" opacity="0.45"/><circle cx="1000" cy="480" r="5" fill="#7ec0f5" opacity="0.45"/><line x1="600" y1="300" x2="380" y2="200" stroke="#6db0e8" stroke-width="2" opacity="0.45"/><line x1="600" y1="300" x2="820" y2="400" stroke="#6db0e8" stroke-width="2" opacity="0.45"/><line x1="600" y1="300" x2="450" y2="450" stroke="#6db0e8" stroke-width="1.5" opacity="0.4"/><line x1="600" y1="300" x2="780" y2="180" stroke="#6db0e8" stroke-width="1.5" opacity="0.4"/><line x1="380" y1="200" x2="250" y2="350" stroke="#6db0e8" stroke-width="1" opacity="0.35"/><line x1="820" y1="400" x2="950" y2="250" stroke="#6db0e8" stroke-width="1" opacity="0.35"/><line x1="250" y1="350" x2="200" y2="150" stroke="#6db0e8" stroke-width="0.8" opacity="0.3"/><line x1="950" y1="250" x2="1000" y2="480" stroke="#6db0e8" stroke-width="0.8" opacity="0.3"/><line x1="450" y1="450" x2="250" y2="350" stroke="#6db0e8" stroke-width="0.8" opacity="0.3"/><line x1="780" y1="180" x2="950" y2="250" stroke="#6db0e8" stroke-width="0.8" opacity="0.3"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0e1c2f"/>
+      <stop offset="100%" style="stop-color:#172b45"/>
+    </linearGradient>
+    <linearGradient id="fade-l" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#0e1c2f;stop-opacity:1"/>
+      <stop offset="20%" style="stop-color:#0e1c2f;stop-opacity:0"/>
+    </linearGradient>
+    <linearGradient id="fade-r" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="80%" style="stop-color:#172b45;stop-opacity:0"/>
+      <stop offset="100%" style="stop-color:#172b45;stop-opacity:1"/>
+    </linearGradient>
+    <radialGradient id="glow-center" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#7ec0f5;stop-opacity:0.28"/>
+      <stop offset="100%" style="stop-color:#7ec0f5;stop-opacity:0"/>
+    </radialGradient>
+    <radialGradient id="glow-node" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#90d0f0;stop-opacity:0.22"/>
+      <stop offset="100%" style="stop-color:#90d0f0;stop-opacity:0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Lueur centrale diffuse -->
+  <ellipse cx="600" cy="315" rx="320" ry="320" fill="url(#glow-center)"/>
+
+  <!-- Cercles concentriques — intensité B -->
+  <circle cx="600" cy="315" r="260" fill="none" stroke="#90d0f0" stroke-width="1.5" opacity="0.38"/>
+  <circle cx="600" cy="315" r="200" fill="none" stroke="#7bbde8" stroke-width="2" opacity="0.55"/>
+  <circle cx="600" cy="315" r="140" fill="none" stroke="#7ec0f5" stroke-width="2.5" opacity="0.7"/>
+  <circle cx="600" cy="315" r="80" fill="none" stroke="#90d0f0" stroke-width="2" opacity="0.82"/>
+  <circle cx="600" cy="315" r="310" fill="none" stroke="#5b88b0" stroke-width="1" opacity="0.25"/>
+
+  <!-- Nœuds sur orbite externe (r=200) -->
+  <circle cx="600" cy="115" r="7" fill="#90d0f0" opacity="0.9"/>
+  <circle cx="600" cy="115" r="18" fill="#90d0f0" opacity="0.14"/>
+  <circle cx="773" cy="215" r="7" fill="#90d0f0" opacity="0.85"/>
+  <circle cx="773" cy="215" r="16" fill="#90d0f0" opacity="0.12"/>
+  <circle cx="773" cy="415" r="6" fill="#7ec0f5" opacity="0.8"/>
+  <circle cx="600" cy="515" r="6" fill="#7ec0f5" opacity="0.78"/>
+  <circle cx="427" cy="415" r="6" fill="#7ec0f5" opacity="0.8"/>
+  <circle cx="427" cy="215" r="7" fill="#90d0f0" opacity="0.85"/>
+  <circle cx="427" cy="215" r="16" fill="#90d0f0" opacity="0.12"/>
+
+  <!-- Nœuds sur orbite interne (r=140) -->
+  <circle cx="600" cy="175" r="5" fill="#bab0f0" opacity="0.85"/>
+  <circle cx="721" cy="245" r="5" fill="#bab0f0" opacity="0.8"/>
+  <circle cx="721" cy="385" r="5" fill="#7ec0f5" opacity="0.78"/>
+  <circle cx="600" cy="455" r="5" fill="#7ec0f5" opacity="0.75"/>
+  <circle cx="479" cy="385" r="5" fill="#7ec0f5" opacity="0.78"/>
+  <circle cx="479" cy="245" r="5" fill="#bab0f0" opacity="0.8"/>
+
+  <!-- Nœud central -->
+  <circle cx="600" cy="315" r="12" fill="#7ec0f5" opacity="0.92"/>
+  <circle cx="600" cy="315" r="28" fill="#7ec0f5" opacity="0.18"/>
+  <circle cx="600" cy="315" r="48" fill="#7ec0f5" opacity="0.07"/>
+
+  <!-- Lignes de connexion réseau -->
+  <line x1="600" y1="115" x2="773" y2="215" stroke="#7ec0f5" stroke-width="1" opacity="0.32"/>
+  <line x1="773" y1="215" x2="773" y2="415" stroke="#7ec0f5" stroke-width="1" opacity="0.28"/>
+  <line x1="773" y1="415" x2="600" y2="515" stroke="#7ec0f5" stroke-width="1" opacity="0.28"/>
+  <line x1="600" y1="515" x2="427" y2="415" stroke="#7ec0f5" stroke-width="1" opacity="0.28"/>
+  <line x1="427" y1="415" x2="427" y2="215" stroke="#7ec0f5" stroke-width="1" opacity="0.28"/>
+  <line x1="427" y1="215" x2="600" y2="115" stroke="#7ec0f5" stroke-width="1" opacity="0.32"/>
+
+  <!-- Lignes vers centre -->
+  <line x1="600" y1="115" x2="600" y2="315" stroke="#7ec0f5" stroke-width="0.8" opacity="0.2" stroke-dasharray="3 6"/>
+  <line x1="773" y1="215" x2="600" y2="315" stroke="#7ec0f5" stroke-width="0.8" opacity="0.2" stroke-dasharray="3 6"/>
+  <line x1="427" y1="215" x2="600" y2="315" stroke="#7ec0f5" stroke-width="0.8" opacity="0.2" stroke-dasharray="3 6"/>
+
+  <!-- Nœuds satellites lointains -->
+  <circle cx="850" cy="160" r="4" fill="#7ec0f5" opacity="0.65"/>
+  <circle cx="850" cy="160" r="10" fill="#7ec0f5" opacity="0.1"/>
+  <circle cx="350" cy="160" r="4" fill="#7ec0f5" opacity="0.6"/>
+  <circle cx="920" cy="380" r="3" fill="#7bbde8" opacity="0.55"/>
+  <circle cx="280" cy="380" r="3" fill="#7bbde8" opacity="0.55"/>
+  <circle cx="200" cy="280" r="3" fill="#7bbde8" opacity="0.48"/>
+  <circle cx="1000" cy="280" r="3" fill="#7bbde8" opacity="0.48"/>
+
+  <!-- Liaisons satellites -->
+  <line x1="850" y1="160" x2="773" y2="215" stroke="#7ec0f5" stroke-width="0.8" opacity="0.3"/>
+  <line x1="350" y1="160" x2="427" y2="215" stroke="#7ec0f5" stroke-width="0.8" opacity="0.3"/>
+
+  <rect x="0" y="0" width="1200" height="630" fill="url(#fade-l)"/>
+  <rect x="0" y="0" width="1200" height="630" fill="url(#fade-r)"/>
+  <rect x="0" y="0" width="1200" height="80" fill="#0e1c2f" opacity="0.52"/>
+  <rect x="0" y="575" width="1200" height="55" fill="#172b45" opacity="0.52"/>
+</svg>
