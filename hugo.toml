@@ -126,7 +126,7 @@ paginate = 10
 
 [related]
   includeNewer = true
-  threshold = 60
+  threshold = 20
   toLower = false
   [[related.indices]]
     name = "tags"
