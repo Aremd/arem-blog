@@ -5,9 +5,10 @@ description: "Réflexion libre"
 date: 2026-03-22
 slug: le-doux-pouvoir
 tags:
-  - Gouvernance
+  - Governance
   - DeFi
-  - Philosophie
+  - Philosophy
+  - Ethereum
 toc: true
 coverTheme: governance
 image: cover.png
