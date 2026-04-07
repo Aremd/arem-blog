@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#152540"/>
+      <stop offset="100%" style="stop-color:#1e3555"/>
+    </linearGradient>
+    <linearGradient id="fade-l" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#152540;stop-opacity:1"/>
+      <stop offset="18%" style="stop-color:#152540;stop-opacity:0"/>
+    </linearGradient>
+    <linearGradient id="fade-r" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="82%" style="stop-color:#1e3555;stop-opacity:0"/>
+      <stop offset="100%" style="stop-color:#1e3555;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- === STRATES HORIZONTALES === -->
+
+  <!-- Strate 6 — Monetary (bas, plus subtil) -->
+  <rect x="0" y="530" width="1200" height="26" fill="#a58b42" opacity="0.07" rx="0"/>
+  <line x1="160" y1="543" x2="1040" y2="543" stroke="#a58b42" stroke-width="1" opacity="0.25"/>
+
+  <!-- Strate 5 — Credit -->
+  <rect x="0" y="450" width="1200" height="26" fill="#4e9d87" opacity="0.07" rx="0"/>
+  <line x1="160" y1="463" x2="1040" y2="463" stroke="#4e9d87" stroke-width="1" opacity="0.28"/>
+
+  <!-- Strate 4 — Parametrization -->
+  <rect x="0" y="370" width="1200" height="26" fill="#8d72b3" opacity="0.08" rx="0"/>
+  <line x1="160" y1="383" x2="1040" y2="383" stroke="#8d72b3" stroke-width="1" opacity="0.3"/>
+
+  <!-- Strate 3 — Breaks -->
+  <rect x="0" y="290" width="1200" height="26" fill="#b56a62" opacity="0.08" rx="0"/>
+  <line x1="160" y1="303" x2="1040" y2="303" stroke="#b56a62" stroke-width="1.5" opacity="0.32"/>
+
+  <!-- Strate 2 — Terrain -->
+  <rect x="0" y="210" width="1200" height="26" fill="#5b88b0" opacity="0.09" rx="0"/>
+  <line x1="160" y1="223" x2="1040" y2="223" stroke="#6db0e8" stroke-width="1.5" opacity="0.38"/>
+
+  <!-- Strate 1 — Powers (haut, le plus fort) -->
+  <rect x="0" y="130" width="1200" height="26" fill="#7d73bb" opacity="0.1" rx="0"/>
+  <line x1="160" y1="143" x2="1040" y2="143" stroke="#9b93d4" stroke-width="2" opacity="0.45"/>
+
+  <!-- === CONNECTEURS VERTICAUX — colonne gauche === -->
+  <!-- Ligne de liaison entre les strates -->
+  <line x1="210" y1="143" x2="210" y2="543" stroke="#5b9bd5" stroke-width="1" opacity="0.18" stroke-dasharray="4 6"/>
+
+  <!-- Nœuds sur la colonne gauche -->
+  <circle cx="210" cy="143" r="5" fill="#9b93d4" opacity="0.7"/>
+  <circle cx="210" cy="143" r="11" fill="#9b93d4" opacity="0.1"/>
+
+  <circle cx="210" cy="223" r="4" fill="#6db0e8" opacity="0.65"/>
+  <circle cx="210" cy="303" r="4" fill="#d7a095" opacity="0.6"/>
+  <circle cx="210" cy="383" r="4" fill="#c4b0de" opacity="0.6"/>
+  <circle cx="210" cy="463" r="4" fill="#84cdb8" opacity="0.6"/>
+  <circle cx="210" cy="543" r="4" fill="#d8bf74" opacity="0.6"/>
+
+  <!-- === CONNECTEURS VERTICAUX — colonne droite === -->
+  <line x1="990" y1="143" x2="990" y2="543" stroke="#5b9bd5" stroke-width="1" opacity="0.18" stroke-dasharray="4 6"/>
+
+  <circle cx="990" cy="143" r="5" fill="#9b93d4" opacity="0.6"/>
+  <circle cx="990" cy="223" r="4" fill="#6db0e8" opacity="0.55"/>
+  <circle cx="990" cy="303" r="4" fill="#d7a095" opacity="0.5"/>
+  <circle cx="990" cy="383" r="4" fill="#c4b0de" opacity="0.5"/>
+  <circle cx="990" cy="463" r="4" fill="#84cdb8" opacity="0.5"/>
+  <circle cx="990" cy="543" r="4" fill="#d8bf74" opacity="0.5"/>
+
+  <!-- === SIGNAL TRAVERSANT — flèche de lecture de haut en bas === -->
+  <line x1="600" y1="110" x2="600" y2="560" stroke="#7ec0f5" stroke-width="1.5" opacity="0.22" stroke-dasharray="3 8"/>
+  <!-- Pointe de flèche -->
+  <polygon points="600,570 595,555 605,555" fill="#7ec0f5" opacity="0.35"/>
+
+  <!-- Nœuds de signal central -->
+  <circle cx="600" cy="143" r="6" fill="#7ec0f5" opacity="0.55"/>
+  <circle cx="600" cy="143" r="14" fill="#7ec0f5" opacity="0.08"/>
+  <circle cx="600" cy="223" r="5" fill="#7ec0f5" opacity="0.45"/>
+  <circle cx="600" cy="303" r="5" fill="#7ec0f5" opacity="0.4"/>
+  <circle cx="600" cy="383" r="5" fill="#7ec0f5" opacity="0.38"/>
+  <circle cx="600" cy="463" r="5" fill="#7ec0f5" opacity="0.35"/>
+  <circle cx="600" cy="543" r="5" fill="#7ec0f5" opacity="0.32"/>
+
+  <!-- === QUELQUES POINTS PARASITES / BRUIT === -->
+  <circle cx="380" cy="185" r="2" fill="#5b9bd5" opacity="0.3"/>
+  <circle cx="820" cy="265" r="2" fill="#5b9bd5" opacity="0.28"/>
+  <circle cx="450" cy="345" r="2" fill="#5b9bd5" opacity="0.25"/>
+  <circle cx="760" cy="425" r="2" fill="#5b9bd5" opacity="0.25"/>
+  <circle cx="330" cy="505" r="2" fill="#5b9bd5" opacity="0.22"/>
+  <circle cx="880" cy="170" r="2" fill="#5b9bd5" opacity="0.28"/>
+  <circle cx="520" cy="495" r="2" fill="#5b9bd5" opacity="0.22"/>
+
+  <!-- === MASQUES FADE latéraux pour aérer === -->
+  <rect x="0" y="0" width="1200" height="630" fill="url(#fade-l)"/>
+  <rect x="0" y="0" width="1200" height="630" fill="url(#fade-r)"/>
+
+  <!-- Masque haut et bas -->
+  <rect x="0" y="0" width="1200" height="90" fill="#152540" opacity="0.55"/>
+  <rect x="0" y="580" width="1200" height="50" fill="#1e3555" opacity="0.55"/>
+</svg>
