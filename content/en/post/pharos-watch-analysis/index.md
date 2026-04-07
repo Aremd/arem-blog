@@ -9,6 +9,7 @@ aliases:
 tags:
   - Stablecoin
   - DeFi
+  - Dashboards
   - Analysis
 toc: true
 coverTheme: pharos

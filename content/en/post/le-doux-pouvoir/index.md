@@ -6,8 +6,9 @@ date: 2026-03-22
 Slug: gentle-power
 tags:
 - Governance
-- Defi
+- DeFi
 - Philosophy
+- Ethereum
 toc: true
 coverTheme: governance
 image: cover.png
