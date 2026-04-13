@@ -1,5 +1,5 @@
 ---
-title: "Déléguer sans renoncer"
+title: "2. Déléguer sans renoncer"
 description: "Une discipline minimale de délégation à l’ère des assistants persistants, des agents et des workflows augmentés."
 slug: "deleguer-sans-renoncer"
 tags:
@@ -9,6 +9,11 @@ tags:
   - Practice
   - Philosophy
 toc: false
+weight: 3
+categories:
+  - Série
+image: "cover.png"
+date: "2026-04-13T00:00:00+00:00"
 ---
 
 *Dans cette série : [Self-custody, mais jusqu’où ?](/post/self-custody-mais-jusquou/)*
@@ -63,17 +68,18 @@ Mais la pratique ne consiste ni à devenir paranoïaque ni à revenir à une aus
 La question est plus difficile qu’il n’y paraît. Parce que nous voulons presque tous la même chose : davantage de vitesse, davantage de clarté, moins de friction, moins de fatigue, plus de continuité. Le problème est que ces gains ont un prix. Et ce prix n’est pas toujours payé en données. Il se paie parfois en habitudes de dépendance.
 
 <style>
-.arem-card{background:#0f1419;border-radius:14px;padding:30px 26px 22px;font-family:ui-sans-serif,system-ui,-apple-system,sans-serif;width:100%;margin:28px 0 22px;border:1px solid rgba(255,255,255,.05)}
-.arem-card-title{font-size:22px;font-weight:700;color:#ffffff;letter-spacing:-.01em;line-height:1.2;margin-bottom:6px}
-.arem-card-sub{font-size:13px;color:#62798b;line-height:1.45;margin-bottom:18px}
-.arem-card-sep{height:1px;background:#1e2d3a;margin-bottom:18px}
+.arem-card{background:var(--card-bg,#f2f3f5);border-radius:14px;padding:30px 26px 22px;font-family:inherit;width:100%;margin:28px 0 22px;border:1px solid var(--card-border,rgba(0,0,0,.08))}
+.arem-card-title{font-size:1.1em;font-weight:700;color:var(--card-text,#1a2332);letter-spacing:-.01em;line-height:1.2;margin-bottom:6px}
+.arem-card-sub{font-size:.95em;color:var(--card-muted,#556070);line-height:1.5;margin-bottom:18px}
+.arem-card-sep{height:1px;background:var(--card-sep,rgba(0,0,0,.1));margin-bottom:18px}
 .arem-card-section{margin-bottom:14px}
-.arem-card-label{font-size:10px;font-weight:700;letter-spacing:.11em;text-transform:uppercase;color:#ffffff;margin-bottom:8px}
-.arem-card-text{font-size:14px;line-height:1.65;color:#d7dee5}
+.arem-card-label{font-size:.85em;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--card-text,#1a2332);margin-bottom:8px}
+.arem-card-text{font-size:.95em;line-height:1.65;color:var(--card-muted,#556070)}
 .arem-card-list{display:flex;flex-direction:column;gap:10px}
-.arem-card-item{padding:10px 12px;border-radius:10px;background:#141c23;border:1px solid rgba(255,255,255,.04)}
-.arem-card-item-title{font-size:13px;font-weight:700;color:#ffffff;margin-bottom:4px}
-.arem-card-item-text{font-size:13px;line-height:1.55;color:#c3ced8}
+.arem-card-item{padding:12px 16px;border-radius:10px;background:var(--card-item-bg,#ffffff);border:1px solid var(--card-border,rgba(0,0,0,.08))}
+.arem-card-item-title{font-size:.95em;font-weight:700;color:var(--card-text,#1a2332);margin-bottom:5px}
+.arem-card-item-text{font-size:.95em;line-height:1.6;color:var(--card-muted,#556070)}
+html[data-scheme="dark"] .arem-card{--card-bg:#141c23;--card-border:rgba(255,255,255,.06);--card-text:#e8f0f8;--card-muted:#7a9ab0;--card-sep:rgba(255,255,255,.08);--card-item-bg:#0f1419}
 </style>
 
 <div class="arem-card">

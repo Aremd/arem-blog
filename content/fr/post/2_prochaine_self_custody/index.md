@@ -1,5 +1,5 @@
 ---
-title: "La prochaine étape de la self-custody"
+title: "1. La prochaine étape de la self-custody"
 description: "Le monde web3 a appris à protéger ses actifs. Il découvre qu’il doit maintenant apprendre à protéger son discernement."
 slug: "la-prochaine-etape-de-la-self-custody"
 tags:
@@ -9,6 +9,11 @@ tags:
   - Sovereignty
   - DeFi
 toc: false
+categories:
+  - Série
+image: "cover.png"
+weight: 2
+date: "2026-04-13T00:00:00+00:00"
 ---
 
 *Ouverture de série : [Self-custody, mais jusqu’où ?](/post/self-custody-mais-jusquou/)*

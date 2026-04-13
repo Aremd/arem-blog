@@ -1,5 +1,5 @@
 ---
-title: "Self-custody, mais jusqu’où ?"
+title: "Intro — Self-custody, mais jusqu'où ?"
 description: "Pourquoi cette série : du contrôle des actifs à l'exercice de son discernement."
 slug: "self-custody-mais-jusquou"
 tags:
@@ -9,6 +9,11 @@ tags:
   - Philosophy
   - DeFi
 toc: false
+categories:
+  - Série
+image: "cover.png"
+weight: 1
+date: "2026-04-13T00:00:00+00:00"
 ---
 
 *Le monde crypto a appris à se méfier des dépositaires pour ses actifs. Il lui reste à étendre cette exigence à son discernement, à son organisation et, demain, à sa manière d’agir.*
