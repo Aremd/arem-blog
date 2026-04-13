@@ -50,7 +50,7 @@ Le deuxième cherche texte à reconstruire une tenue. L’IA n’est plus seulem
 
 Le troisième montre pourquoi la DeFi est l’un des premiers lieux où cette question ne peut plus être éludée : la moindre délégation finit tôt ou tard par prendre la forme d’une permission, d’une borne, d’un risque ou d’une architecture.
 
-La pensée d’[Edgar Morin] (https://archive.mcxapc.org/docs/apc/0901montuori.pdf) est le fil discret qui guide l’ensemble. Non comme autorité plaquée sur l’époque, mais comme discipline de lecture : tenir ensemble autonomie et dépendance, puissance locale et effets d’ensemble, service rendu et dépossession progressive. Bref, apprendre à lire un milieu complexe sans se raconter qu’une solution locale suffira à en épuiser les conséquences.
+La pensée d’[Edgar Morin](https://archive.mcxapc.org/docs/apc/0901montuori.pdf) est le fil discret qui guide l’ensemble. Non comme autorité plaquée sur l’époque, mais comme discipline de lecture : tenir ensemble autonomie et dépendance, puissance locale et effets d’ensemble, service rendu et dépossession progressive. Bref, apprendre à lire un milieu complexe sans se raconter qu’une solution locale suffira à en épuiser les conséquences.
 
 ## Ce que cette série ne promet pas
 
