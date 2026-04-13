@@ -16,7 +16,7 @@ weight: 2
 date: "2026-04-13T00:00:00+00:00"
 ---
 
-*Ouverture de série : [Self-custody, mais jusqu’où ?](/post/self-custody-mais-jusquou/)*
+*Ouverture de série : [Self-custody, mais jusqu’où ?](/fr/post/self-custody-mais-jusquou/)*
 
 ## Nous avons appris à ne pas confier nos actifs à des dépositaires. Il nous reste à ne pas confier trop vite notre discernement à de nouveaux intermédiaires.
 

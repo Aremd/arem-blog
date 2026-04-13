@@ -16,7 +16,7 @@ image: "cover.png"
 date: "2026-04-13T00:00:00+00:00"
 ---
 
-*Dans cette série : [Self-custody, mais jusqu’où ?](/post/self-custody-mais-jusquou/)*
+*Dans cette série : [Self-custody, mais jusqu’où ?](/fr/post/self-custody-mais-jusquou/)*
 
 ## Le problème n’est plus d’utiliser l’IA. Le problème est de savoir jusqu’où la laisser entrer.
 

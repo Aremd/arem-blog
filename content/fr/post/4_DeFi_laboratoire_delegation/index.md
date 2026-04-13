@@ -16,7 +16,7 @@ image: "cover.png"
 date: "2026-04-13T00:00:00+00:00"
 ---
 
-*Dans cette série : [Self-custody, mais jusqu’où ?](/post/self-custody-mais-jusquou/)*
+*Dans cette série : [Self-custody, mais jusqu’où ?](/fr/post/self-custody-mais-jusquou/)*
 
 ## En DeFi, une idée devient vite une autorisation, une gestion du risque ou une signature.
 

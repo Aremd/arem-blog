@@ -61,14 +61,14 @@ Elle essaie de faire quelque chose de plus utile : donner des critères pour dis
 
 ## Les trois textes
 
-### 1. [La prochaine étape de la self-custody](/post/la-prochaine-etape-de-la-self-custody/)
+### 1. [La prochaine étape de la self-custody](/fr/post/la-prochaine-etape-de-la-self-custody/)
 
 Le diagnostic : ce que l’IA déplace vraiment dans une culture qui croyait déjà savoir ce que signifie la souveraineté numérique.
 
-### 2. [Déléguer sans renoncer](/post/deleguer-sans-renoncer/)
+### 2. [Déléguer sans renoncer](/fr/post/deleguer-sans-renoncer/)
 
 Le cœur pratique et philosophique de la série : distinguer assistance, délégation et abandon, puis retrouver une discipline d’usage assez ferme pour être réelle, assez simple pour rester praticable.
 
-### 3. [La DeFi, laboratoire de la délégation](/post/defi-laboratoire-de-la-delegation/)
+### 3. [La DeFi, laboratoire de la délégation](/fr/post/defi-laboratoire-de-la-delegation/)
 
 Le terrain d’épreuve : dashboards, wrappers, agents, vibe coding, puis deux cas contrastés — Money League et Polaris — pour rendre le problème visible.
