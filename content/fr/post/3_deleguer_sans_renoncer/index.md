@@ -19,7 +19,7 @@ date: "2026-04-13T00:00:00+00:00"
 
 *Dans cette série : [Self-custody, mais jusqu’où ?](/fr/post/self-custody-mais-jusquou/)*
 
-## Le problème n’est plus d’utiliser l’IA. Le problème est de savoir jusqu’où la laisser entrer.
+## La question n’est plus d’utiliser l’IA mais de savoir jusqu’où la laisser entrer.
 
 Le débat sur l’IA se fige trop souvent dans une alternative paresseuse. D’un côté, l’enthousiasme sans frein : tout brancher, tout automatiser, tout accélérer. De l’autre, la posture de retrait : garder ses distances, se défier de tout, et se flatter d’une austérité supposée plus lucide.
 
@@ -27,7 +27,7 @@ Ni l’une ni l’autre ne tient très longtemps dans la vie ordinaire.
 
 La question sérieuse est plus exigeante : quels types de délégation peut-on consentir sans perdre la maîtrise de sa pratique ?
 
-Le lecteur web3 dispose ici d’une ressource précieuse. Il a déjà appris, dans d’autres domaines, qu’il ne suffit pas qu’un système soit performant pour qu’il soit légitime. Il faut encore savoir qui contrôle quoi, dans quelles limites, et avec quelle réversibilité.
+Nous disposons ici d’une ressource précieuse : nous avons déjà appris, dans d’autres domaines, qu’il ne suffit pas qu’un système soit performant pour qu’il soit légitime. Il faut encore savoir qui contrôle quoi, dans quelles limites, et avec quelle réversibilité.
 
 Appliquée à l’IA, cette intuition doit maintenant devenir une discipline.
 
@@ -49,24 +49,22 @@ Le problème de la délégation n’apparaît pas d’abord dans les cas extrêm
 
 Ce n’est pas lorsque le système propose de signer une transaction absurde que la vigilance se joue le plus souvent. C’est lorsque, jour après jour, il devient normal qu’il lise à notre place, trie à notre place, relie à notre place, surveille à notre place et prépare notre travail avant même que nous nous y mettions.
 
-Là encore, Morin aide à voir plus juste. Le danger n’est pas seulement l’erreur spectaculaire ; c’est la dépendance qui se forme à bas bruit, dans la continuité du service rendu. Nous finissons alors par confondre l’augmentation de notre puissance avec le dessaisissement progressif de notre présence.
+Là encore, Morin aide à voir plus juste. *Le danger n’est pas seulement l’erreur spectaculaire ; c’est la dépendance qui se forme à bas bruit, dans la continuité du service rendu. Nous finissons alors par confondre l’augmentation de notre puissance avec le dessaisissement progressif de notre présence.*
 
 Autrement dit : ce qui menace l’autonomie n’est pas toujours l’hostilité.
 C’est souvent la douceur.
 
 ## Où commence la responsabilité individuelle
 
-Il faut ici être net.
-
 Les protocoles, les builders et les fournisseurs d’outils ont un devoir d’information, de lisibilité, de bornage et, lorsqu’ils le peuvent, de prudence dans le design. Mais ils ne peuvent pas porter seuls la charge d’éduquer des utilisateurs ou des opérateurs décidés à tout déléguer sans discernement.
 
 Il existe donc une responsabilité proprement individuelle qu’il faut réhabiliter.
 
-On trouve une version particulièrement nette de cette préoccupation chez Vitalik Buterin, lorsqu’il défend un usage local-first, compartimenté et fortement borné des LLM. L’intérêt de ce setup n’est pas de fournir un modèle universel. Il est de rendre visible une chose plus profonde : à mesure que l’IA devient un milieu d’action ordinaire, la question décisive n’est plus seulement celle de la puissance des modèles, mais celle des limites que nous acceptons — ou non — de poser à leur délégation.
+On trouve une version particulièrement nette de cette préoccupation chez Vitalik Buterin, lorsqu’il défend un usage local-first, compartimenté et fortement borné des LLM. L’intérêt de ce setup n’est pas de fournir un modèle universel. Il est de rendre visible une chose plus profonde : à mesure que l’IA devient un milieu d’action ordinaire, la question décisive n’est plus seulement celle de la puissance des modèles, mais celle des limites que nous acceptons (ou non) de poser à leur délégation.
 
 Mais la pratique ne consiste ni à devenir paranoïaque ni à revenir à une austérité héroïque. Elle consiste à se demander, avec un peu de fermeté : qu’est-ce que je veux vraiment gagner ? et qu’est-ce que je refuse de perdre en l’obtenant ?
 
-La question est plus difficile qu’il n’y paraît. Parce que nous voulons presque tous la même chose : davantage de vitesse, davantage de clarté, moins de friction, moins de fatigue, plus de continuité. Le problème est que ces gains ont un prix. Et ce prix n’est pas toujours payé en données. Il se paie parfois en habitudes de dépendance.
+Et cette question est plus difficile qu’il n’y paraît. Parce que nous voulons presque tous la même chose : davantage de vitesse, davantage de clarté, moins de friction, moins de fatigue, plus de continuité. Le problème est que ces gains ont un prix. Et ce prix n’est pas toujours payé en données. Il se paie parfois en habitudes de dépendance.
 
 <style>
 .arem-card{background:var(--card-bg,#f2f3f5);border-radius:14px;padding:30px 26px 22px;font-family:inherit;width:100%;margin:28px 0 22px;border:1px solid var(--card-border,rgba(0,0,0,.08))}
