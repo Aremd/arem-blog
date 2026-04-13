@@ -1,5 +1,5 @@
 ---
-title: "Intro — Self-Custody, But How Far?"
+title: "Intro - Self-Custody, But How Far?"
 description: "A series about the next frontier of self-custody: not assets, but judgment, organization, and action."
 slug: "self-custody-but-how-far"
 tags:
