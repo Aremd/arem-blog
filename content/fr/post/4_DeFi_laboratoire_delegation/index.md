@@ -21,7 +21,7 @@ date: "2026-04-13T00:00:00+00:00"
 
 ## En DeFi, une idée devient vite une autorisation, une gestion du risque ou une signature.
 
-C’est ce qui fait de la DeFi un terrain d’avance.
+C’est ce qui fait de la DeFi un terrain d'expérimentations.
 
 Dans bien des environnements numériques, on peut encore vivre longtemps dans l’ambiguïté. Les gestes restent diffus, les conséquences se répartissent, les erreurs se rattrapent. En DeFi, beaucoup moins. Entre une lecture du marché, une recommandation, un clic, une approbation et une exécution, la distance est courte.
 
@@ -37,7 +37,7 @@ Ce n’est plus vrai.
 
 Entre l’utilisateur et le protocole s’intercale désormais tout un environnement logiciel : interfaces spécialisées, dashboards, wrappers, copilotes, outils treasury, couches de recherche, outils de monitoring, services de coordination, parfois déjà agents d’exécution.
 
-Il ne s’agit pas de soupçonner indistinctement tous ces objets. Il s’agit de comprendre qu’ils déplacent la carte de la confiance. Même lorsqu’un protocole de base est robuste, l’environnement qui l’entoure peut devenir le lieu principal où se rejoue le problème : ce que l’on voit, ce que l’on comprend, ce que l’on croit comprendre, ce que l’on est poussé à faire.
+Il ne s’agit pas de soupçonner indistinctement tous ces objets. Il s’agit de comprendre qu’ils déplacent la carte de la confiance. *Même lorsqu’un protocole de base est robuste, l’environnement qui l’entoure peut devenir le lieu principal où se rejoue le problème : ce que l’on voit, ce que l’on comprend, ce que l’on croit comprendre, ce que l’on est poussé à faire.*
 
 ## Ce que l’IA change au contexte
 
@@ -49,8 +49,8 @@ Mais le coût de la vérification, de la qualification et de la bonne intégrati
 
 Le problème n’est donc pas que des outils soient développés avec l’aide de l’IA. Le problème commence lorsque la baisse du coût de production d’un service n’est pas accompagnée d’une baisse équivalente du coût de sa compréhension, de son contrôle et de son intégration prudente.
 
-Nous n’avons alors pas seulement plus de software.
-Nous avons plus de surfaces de confiance à évaluer.
+*Nous n’avons alors pas seulement plus de software.
+Nous avons plus de surfaces de confiance à évaluer, sans avoir les outils pour le faire.*
 
 ## Vibe coding : loin du scandale, un révélateur
 
@@ -100,7 +100,7 @@ C’est une question monétaire, institutionnelle et opérationnelle.
 
 ## Morin : aucune limitation locale n’abolit le problème du système
 
-C’est ici que Morin nous aide à éviter deux naïvetés symétriques.
+C’est ici que [Morin](https://archive.mcxapc.org/docs/apc/0901montuori.pdf) nous aide à éviter deux naïvetés symétriques.
 
 La première consisterait à croire que plus de design, plus de limitations et plus de permissions explicites suffisent à résoudre le problème.
 
@@ -211,5 +211,5 @@ Il demande aussi une chose plus difficile : accepter qu’aucune preuve locale, 
 
 C’est sans doute là que se joue la suite la plus sérieuse de la promesse de la crypto.
 
-Non pas seulement protéger ce que nous possédons.
-Mais apprendre à ne pas céder trop vite ce qui nous permet encore d’agir.
+*Il ne s'agit pas seulement protéger ce que nous possédons.
+Mais apprendre à ne pas céder trop vite ce qui nous permet encore d’agir.*
