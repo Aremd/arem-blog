@@ -1,7 +1,7 @@
 ---
-title: "1. La prochaine étape de la self-custody"
+title: "1. La prochaine étape du self-custody"
 description: "Le monde web3 a appris à protéger ses actifs. Il découvre qu’il doit maintenant apprendre à protéger son discernement."
-slug: "la-prochaine-etape-de-la-self-custody"
+slug: "la-prochaine-etape-du-self-custody"
 tags:
   - AI
   - Web3
@@ -41,11 +41,9 @@ Elle n’est plus seulement un outil. Elle devient un milieu. Parfois un milieu 
 
 Et dès qu’un outil devient un milieu, la question change de nature. Il ne s’agit plus seulement de savoir s’il est utile. Il faut demander ce qu’il reconfigure en nous : notre manière de lire, de hiérarchiser, de retenir, d’anticiper, d’arbitrer.
 
-Pour un lecteur web3, le déplacement est décisif. La minimisation de la confiance ne concerne plus seulement les actifs, les contrats ou les rails d’exécution. Elle touche quelque chose de plus difficile à conserver : son discernement.
+La minimisation de la confiance ne concerne plus seulement les actifs, les contrats ou les rails d’exécution. Elle touche quelque chose de plus difficile à conserver : son discernement.
 
 ## Une contradiction très crypto
-
-Le sujet n’est pas l’hypocrisie. Il est plus embarrassant — et plus intéressant.
 
 Le monde crypto a toujours été attiré par les outils qui donnent un avantage : plus de vitesse, plus de lisibilité, plus d’asymétrie informationnelle, plus de capacité à explorer, comparer, exécuter. Il est donc parfaitement logique qu’il soit parmi les premiers à adopter des copilotes persistants, des workflows augmentés, des couches agentiques, des systèmes qui gardent le contexte et compriment le temps de travail.
 
@@ -77,17 +75,17 @@ Car il ne s’agit plus seulement de savoir si un outil nous espionne. Il faut d
 
 ## Morin, ou la mauvaise nouvelle utile
 
-C’est ici qu’Edgar Morin redevient précieux.
+C’est ici qu’[Edgar Morin](https://archive.mcxapc.org/docs/apc/0901montuori.pdf) redevient précieux.
 
-Morin oblige à penser ensemble ce que nous préférerions séparer : autonomie et dépendance, puissance locale et effets d’ensemble, service rendu et dépossession progressive. Sa leçon, appliquée à l’IA, est sévère mais salutaire : un outil d’augmentation peut devenir une infrastructure de déprise sans jamais cesser, localement, de rendre service.
+Morin oblige à penser ensemble ce que nous préférerions séparer : autonomie ET dépendance, puissance locale ET effets d’ensemble, service rendu ET dépossession progressive. Sa leçon, appliquée à l’IA, est sévère mais salutaire : un outil d’augmentation peut devenir une infrastructure de déprise sans jamais cesser, localement, de rendre service.
 
 Le danger ne prend donc pas nécessairement la forme d’une catastrophe visible. Il peut s’installer sous les traits du confort.
 
 On s’aperçoit vite qu’on a confié ses fonds à un dépositaire douteux.
 On s’aperçoit plus tard qu’on a commencé à déléguer trop largement sa lecture, sa mémoire, sa manière de structurer le réel ou la préparation de ses décisions.
 
-La dépendance cognitive ne ressemble pas toujours à une contrainte.
-Elle prend souvent la forme d’une aide devenue naturelle.
+*La dépendance cognitive ne ressemble pas toujours à une contrainte.
+Elle prend souvent la forme d’une aide devenue naturelle.*
 
 ## Le problème n’est pas seulement celui des modèles. C’est aussi celui du milieu logiciel.
 
@@ -107,8 +105,8 @@ Nous avons plus de surfaces de confiance à évaluer.
 La question n’est donc pas de savoir si l’IA est compatible avec la culture web3.
 Elle l’est déjà, et presque trop bien.
 
-La vraie question est plus embarrassante : le monde crypto saura-t-il étendre à la cognition, à l’organisation et à l’action les exigences de souveraineté qu’il a appris à formuler pour les actifs ?
+*La vraie question est plus embarrassante : le monde crypto saura-t-il étendre à la cognition, à l’organisation et à l’action les exigences de souveraineté qu’il a appris à formuler pour les actifs ?*
 
 Nous savons désormais où se situe la faille. Car une culture de la self-custody qui ne se demanderait pas ce qu’elle remet à des intermédiaires cognitifs manquerait peut-être l’étape la plus décisive de son propre développement.
 
-Reste à savoir comment vivre cette époque sans tomber ni dans l’enthousiasme sans bornes ni dans le refus stérile. Le texte suivant part de là : retrouver une discipline de la délégation assez ferme pour être réelle, assez simple pour rester praticable.
+Reste à savoir comment vivre cette époque sans tomber ni dans l’enthousiasme sans bornes ni dans le refus stérile. Le texte suivant part de là : *retrouver une discipline de la délégation assez ferme pour être réelle, assez simple pour rester praticable.*
