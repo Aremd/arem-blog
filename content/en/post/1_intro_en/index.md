@@ -9,6 +9,7 @@ tags:
   - Philosophy
   - DeFi
 toc: false
+translationKey: "series-self-custody-intro"
 date: "2026-04-13T00:00:00+00:00"
 weight: 1
 image: "cover.png"

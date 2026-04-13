@@ -9,6 +9,7 @@ tags:
   - Sovereignty
   - Agents
 toc: false
+translationKey: "series-self-custody-part3"
 weight: 4
 categories:
   - Série

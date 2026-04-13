@@ -9,6 +9,7 @@ tags:
   - Sovereignty
   - DeFi
 toc: false
+translationKey: "series-self-custody-part1"
 categories:
   - Série
 image: "cover.png"

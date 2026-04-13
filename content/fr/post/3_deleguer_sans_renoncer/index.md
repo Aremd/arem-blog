@@ -9,6 +9,7 @@ tags:
   - Practice
   - Philosophy
 toc: false
+translationKey: "series-self-custody-part2"
 weight: 3
 categories:
   - Série

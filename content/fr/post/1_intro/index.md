@@ -9,6 +9,7 @@ tags:
   - Philosophy
   - DeFi
 toc: false
+translationKey: "series-self-custody-intro"
 categories:
   - Série
 image: "cover.png"
