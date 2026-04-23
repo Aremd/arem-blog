@@ -10,8 +10,7 @@ tags:
   - DeFi
 toc: false
 translationKey: "series-self-custody-part1"
-date: "2026-04-13T00:00:00+00:00"
-weight: 2
+date: "2026-04-13T11:00:00+00:00"
 image: "cover.png"
 categories:
   - Series

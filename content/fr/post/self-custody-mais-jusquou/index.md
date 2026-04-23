@@ -13,8 +13,7 @@ translationKey: "series-self-custody-intro"
 categories:
   - Série
 image: "cover.png"
-weight: 1
-date: "2026-04-13T00:00:00+00:00"
+date: "2026-04-13T10:00:00+00:00"
 ---
 
 *Le monde crypto a appris à se méfier des dépositaires pour ses actifs. Il lui reste à étendre cette exigence à son discernement, à son organisation et, demain, à sa manière d’agir.*

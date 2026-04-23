@@ -13,8 +13,7 @@ translationKey: "series-self-custody-part1"
 categories:
   - Série
 image: "cover.png"
-weight: 2
-date: "2026-04-13T00:00:00+00:00"
+date: "2026-04-13T11:00:00+00:00"
 ---
 
 *Ouverture de série : [Self-custody, mais jusqu’où ?](/fr/post/self-custody-mais-jusquou/)*

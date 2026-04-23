@@ -10,8 +10,7 @@ tags:
   - Agents
 toc: false
 translationKey: "series-self-custody-part3"
-date: "2026-04-13T00:00:00+00:00"
-weight: 4
+date: "2026-04-13T13:00:00+00:00"
 image: "cover.png"
 categories:
   - Series

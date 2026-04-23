@@ -10,11 +10,10 @@ tags:
   - Agents
 toc: false
 translationKey: "series-self-custody-part3"
-weight: 4
 categories:
   - Série
 image: "cover.png"
-date: "2026-04-13T00:00:00+00:00"
+date: "2026-04-13T13:00:00+00:00"
 ---
 
 *Dans cette série : [Self-custody, mais jusqu’où ?](/fr/post/self-custody-mais-jusquou/)*

@@ -10,8 +10,7 @@ tags:
   - Philosophy
 toc: false
 translationKey: "series-self-custody-part2"
-date: "2026-04-13T00:00:00+00:00"
-weight: 3
+date: "2026-04-13T12:00:00+00:00"
 image: "cover.png"
 categories:
   - Series
