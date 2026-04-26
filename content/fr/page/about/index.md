@@ -32,6 +32,8 @@ Mais un système dont les participants ne peuvent pas lire ce à quoi ils prenne
 
 Cette défaillance est elle aussi un problème de sécurité, et elle se situe en amont de tout audit. **Un travail éditorial qui restaure une lecture coordonnée et rend les situations suffisamment intelligibles pour être choisies relève d'un niveau de sécurité qui manque aujourd'hui.**
 
+Cette conception de la sécurité n'est pas isolée. Des appels collectifs au sein de l'industrie, comme la déclaration récente de zeroShadow, SEAL, Bybit et d'autres sur la coordination des freezes et recoveries crypto, rendent explicite que l'absence de cadres partagés, de lecture commune et de réponse collaborative constitue en soi une vulnérabilité structurelle. Un travail éditorial situé en amont de ces problèmes de coordination s'inscrit dans le même effort.
+
 ## Vigilance servile et vigilance transversale
 
 L'écosystème a appris à financer une partie de sa couche d'observation. Des fournisseurs de risque rémunérés par les DAO qu'ils analysent. Des sociétés de sécurité sous contrat commercial. Des cabinets d'audit sous rétention. Ce travail est sérieux et utile, mais il sert un payeur identifié.
@@ -70,7 +72,9 @@ Ce ne sera pas le travail d'un seul auteur. L'enjeu est d'initier quelque chose 
 
 ## Soutien
 
-En avril 2026, le blog a candidaté au round Ethereum Security QF sur Giveth, suite à une invitation directe de Griff Green à y participer en tant qu'observateur éditorial publiant en accès libre. Une fois la candidature validée, les modalités de soutien seront précisées sur [la page dédiée](/support).
+En avril 2026, le blog a candidaté au round Ethereum Security QF sur Giveth, suite à une invitation directe de Griff Green à y participer en tant qu'observateur éditorial publiant en accès libre.
+
+La page projet sur Giveth est l'endroit pour soutenir ce travail : [giveth.io/project/editorial-observer](https://giveth.io/project/editorial-observer).
 
 ## Contact
 

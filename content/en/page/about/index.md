@@ -32,6 +32,8 @@ But a system whose participants cannot read what they are taking part in produce
 
 That failure is also a security problem, and it sits upstream of every audit. **Editorial work that restores coordinated reading and makes situations intelligible enough to be chosen is security work at the layer where it is currently missing.**
 
+This view of security is not isolated. Industry-wide calls, like the recent statement from zeroShadow, SEAL, Bybit and others on coordinated crypto freezes and recoveries, make explicit that the absence of shared frameworks, common reading, and collaborative response is itself a structural vulnerability. Editorial work upstream of these coordination problems is part of the same effort.
+
 ## Servile and transversal watchfulness
 
 The ecosystem has learned to fund part of its observation layer. Risk providers paid by the DAOs they analyze. Security firms under commercial contract. Audit shops with retainers. This work is serious and useful, but it serves an identified payer.
@@ -70,7 +72,9 @@ This is not the work of one writer alone. The point is to start, clearly enough 
 
 ## Support
 
-In April 2026, the blog applied to the Ethereum Security QF Round on Giveth, following a direct invitation from Griff Green to participate as an editorial observer publishing for free. Once the application is validated, details on how to support the work will be available on [the support page](/support).
+In April 2026, the blog applied to the Ethereum Security QF Round on Giveth, following a direct invitation from Griff Green to participate as an editorial observer publishing for free.
+
+The project page on Giveth is the place to support this work: [giveth.io/project/editorial-observer](https://giveth.io/project/editorial-observer).
 
 ## Contact
 
