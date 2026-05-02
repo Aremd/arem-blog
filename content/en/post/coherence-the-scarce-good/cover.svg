@@ -1,0 +1,193 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 840" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <!-- Background gradient: Intensity B charter -->
+    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0e1c2f"/>
+      <stop offset="55%" stop-color="#142640"/>
+      <stop offset="100%" stop-color="#172b45"/>
+    </linearGradient>
+
+    <!-- Top luminous halo (cyan accent) -->
+    <radialGradient id="haloTop" cx="50%" cy="22%" r="55%">
+      <stop offset="0%" stop-color="#5b9bd5" stop-opacity="0.32"/>
+      <stop offset="45%" stop-color="#3a6e9c" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#0e1c2f" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Bottom diffuse glow -->
+    <radialGradient id="haloBottom" cx="50%" cy="100%" r="60%">
+      <stop offset="0%" stop-color="#1f3a5f" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#0e1c2f" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Amber accent halo (small, off-center) -->
+    <radialGradient id="amberSpot" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#d4a052" stop-opacity="0.55"/>
+      <stop offset="60%" stop-color="#a87a3a" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#0e1c2f" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Cyan node glow -->
+    <radialGradient id="cyanNode" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7fb8e0" stop-opacity="0.95"/>
+      <stop offset="40%" stop-color="#5b9bd5" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#5b9bd5" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Amber node glow -->
+    <radialGradient id="amberNode" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#e8b56a" stop-opacity="0.9"/>
+      <stop offset="40%" stop-color="#d4a052" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#d4a052" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Subtle vertical fade for the bottom (dispersion zone) -->
+    <linearGradient id="fragmentFade" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#5b9bd5" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#5b9bd5" stop-opacity="0.85"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background layers -->
+  <rect width="1600" height="840" fill="url(#bg)"/>
+  <rect width="1600" height="840" fill="url(#haloBottom)"/>
+  <rect width="1600" height="840" fill="url(#haloTop)"/>
+
+  <!-- Amber accent zone, upper right -->
+  <ellipse cx="1180" cy="180" rx="320" ry="180" fill="url(#amberSpot)"/>
+
+  <!-- ============================================================
+       BOTTOM ZONE: dispersed fragments (no connections)
+       Small, scattered, faint nodes — the "before" state
+       ============================================================ -->
+
+  <g opacity="0.55">
+    <!-- Random fragments, no edges -->
+    <circle cx="120" cy="780" r="3" fill="#5b9bd5" opacity="0.6"/>
+    <circle cx="210" cy="750" r="2.5" fill="#5b9bd5" opacity="0.5"/>
+    <circle cx="280" cy="800" r="3.5" fill="#5b9bd5" opacity="0.7"/>
+    <circle cx="380" cy="730" r="2" fill="#5b9bd5" opacity="0.4"/>
+    <circle cx="450" cy="790" r="3" fill="#5b9bd5" opacity="0.55"/>
+    <circle cx="530" cy="760" r="2.5" fill="#5b9bd5" opacity="0.5"/>
+    <circle cx="620" cy="810" r="3" fill="#5b9bd5" opacity="0.6"/>
+    <circle cx="700" cy="745" r="2" fill="#5b9bd5" opacity="0.4"/>
+    <circle cx="780" cy="785" r="3.5" fill="#5b9bd5" opacity="0.65"/>
+    <circle cx="850" cy="755" r="2.5" fill="#5b9bd5" opacity="0.5"/>
+    <circle cx="930" cy="800" r="3" fill="#5b9bd5" opacity="0.6"/>
+    <circle cx="1020" cy="765" r="2" fill="#5b9bd5" opacity="0.45"/>
+    <circle cx="1100" cy="790" r="3" fill="#5b9bd5" opacity="0.55"/>
+    <circle cx="1180" cy="755" r="2.5" fill="#5b9bd5" opacity="0.5"/>
+    <circle cx="1260" cy="810" r="3.5" fill="#5b9bd5" opacity="0.65"/>
+    <circle cx="1340" cy="775" r="2" fill="#5b9bd5" opacity="0.4"/>
+    <circle cx="1420" cy="745" r="3" fill="#5b9bd5" opacity="0.55"/>
+    <circle cx="1490" cy="795" r="2.5" fill="#5b9bd5" opacity="0.5"/>
+  </g>
+
+  <!-- ============================================================
+       MIDDLE ZONE: emerging connections (transition)
+       Medium nodes, some short edges starting to form
+       ============================================================ -->
+
+  <g opacity="0.7">
+    <!-- Edges (sparse, short) -->
+    <line x1="320" y1="560" x2="450" y2="540" stroke="#5b9bd5" stroke-width="0.8" opacity="0.4"/>
+    <line x1="450" y1="540" x2="600" y2="580" stroke="#5b9bd5" stroke-width="0.8" opacity="0.4"/>
+    <line x1="780" y1="520" x2="900" y2="555" stroke="#5b9bd5" stroke-width="0.8" opacity="0.4"/>
+    <line x1="900" y1="555" x2="1050" y2="530" stroke="#5b9bd5" stroke-width="0.8" opacity="0.4"/>
+    <line x1="1050" y1="530" x2="1200" y2="570" stroke="#5b9bd5" stroke-width="0.8" opacity="0.4"/>
+
+    <!-- Nodes -->
+    <circle cx="220" cy="600" r="3" fill="#5b9bd5" opacity="0.7"/>
+    <circle cx="320" cy="560" r="3.5" fill="#5b9bd5" opacity="0.75"/>
+    <circle cx="450" cy="540" r="4" fill="#7fb8e0" opacity="0.85"/>
+    <circle cx="600" cy="580" r="3" fill="#5b9bd5" opacity="0.7"/>
+    <circle cx="700" cy="615" r="2.5" fill="#5b9bd5" opacity="0.6"/>
+    <circle cx="780" cy="520" r="3.5" fill="#5b9bd5" opacity="0.75"/>
+    <circle cx="900" cy="555" r="4" fill="#7fb8e0" opacity="0.85"/>
+    <circle cx="1050" cy="530" r="3" fill="#5b9bd5" opacity="0.75"/>
+    <circle cx="1200" cy="570" r="3.5" fill="#5b9bd5" opacity="0.7"/>
+    <circle cx="1330" cy="605" r="3" fill="#5b9bd5" opacity="0.65"/>
+  </g>
+
+  <!-- ============================================================
+       UPPER MIDDLE ZONE: structured network beginning
+       Denser connections, larger nodes
+       ============================================================ -->
+
+  <g opacity="0.85">
+    <!-- Edges -->
+    <line x1="380" y1="380" x2="520" y2="350" stroke="#5b9bd5" stroke-width="1" opacity="0.55"/>
+    <line x1="520" y1="350" x2="680" y2="370" stroke="#5b9bd5" stroke-width="1" opacity="0.55"/>
+    <line x1="680" y1="370" x2="820" y2="340" stroke="#5b9bd5" stroke-width="1" opacity="0.55"/>
+    <line x1="820" y1="340" x2="980" y2="365" stroke="#5b9bd5" stroke-width="1" opacity="0.55"/>
+    <line x1="980" y1="365" x2="1140" y2="335" stroke="#5b9bd5" stroke-width="1" opacity="0.55"/>
+    <line x1="1140" y1="335" x2="1280" y2="380" stroke="#5b9bd5" stroke-width="1" opacity="0.55"/>
+
+    <!-- Cross-connections -->
+    <line x1="520" y1="350" x2="680" y2="370" stroke="#5b9bd5" stroke-width="1" opacity="0.5"/>
+    <line x1="520" y1="350" x2="820" y2="340" stroke="#5b9bd5" stroke-width="0.7" opacity="0.3"/>
+    <line x1="680" y1="370" x2="980" y2="365" stroke="#5b9bd5" stroke-width="0.7" opacity="0.3"/>
+    <line x1="820" y1="340" x2="1140" y2="335" stroke="#5b9bd5" stroke-width="0.7" opacity="0.3"/>
+
+    <!-- Nodes with halos -->
+    <circle cx="380" cy="380" r="18" fill="url(#cyanNode)"/>
+    <circle cx="380" cy="380" r="4.5" fill="#7fb8e0"/>
+
+    <circle cx="520" cy="350" r="20" fill="url(#cyanNode)"/>
+    <circle cx="520" cy="350" r="5" fill="#9ac8e8"/>
+
+    <circle cx="680" cy="370" r="18" fill="url(#cyanNode)"/>
+    <circle cx="680" cy="370" r="4.5" fill="#7fb8e0"/>
+
+    <circle cx="820" cy="340" r="22" fill="url(#amberNode)"/>
+    <circle cx="820" cy="340" r="5.5" fill="#e8b56a"/>
+
+    <circle cx="980" cy="365" r="18" fill="url(#cyanNode)"/>
+    <circle cx="980" cy="365" r="4.5" fill="#7fb8e0"/>
+
+    <circle cx="1140" cy="335" r="20" fill="url(#cyanNode)"/>
+    <circle cx="1140" cy="335" r="5" fill="#9ac8e8"/>
+
+    <circle cx="1280" cy="380" r="18" fill="url(#cyanNode)"/>
+    <circle cx="1280" cy="380" r="4.5" fill="#7fb8e0"/>
+  </g>
+
+  <!-- ============================================================
+       TOP ZONE: coherent structure
+       The layer comes together — three larger nodes interconnected
+       ============================================================ -->
+
+  <g opacity="1">
+    <!-- Top spine: three nodes interconnected, articulating "decision / capital / production" -->
+    <line x1="540" y1="180" x2="800" y2="140" stroke="#7fb8e0" stroke-width="1.4" opacity="0.7"/>
+    <line x1="800" y1="140" x2="1060" y2="180" stroke="#7fb8e0" stroke-width="1.4" opacity="0.7"/>
+    <line x1="540" y1="180" x2="1060" y2="180" stroke="#7fb8e0" stroke-width="1.2" opacity="0.55"/>
+
+    <!-- Connections downward to upper-middle layer -->
+    <line x1="540" y1="180" x2="520" y2="350" stroke="#5b9bd5" stroke-width="1" opacity="0.45"/>
+    <line x1="540" y1="180" x2="680" y2="370" stroke="#5b9bd5" stroke-width="0.8" opacity="0.35"/>
+    <line x1="800" y1="140" x2="820" y2="340" stroke="#d4a052" stroke-width="1" opacity="0.5"/>
+    <line x1="800" y1="140" x2="680" y2="370" stroke="#5b9bd5" stroke-width="0.8" opacity="0.35"/>
+    <line x1="800" y1="140" x2="980" y2="365" stroke="#5b9bd5" stroke-width="0.8" opacity="0.35"/>
+    <line x1="1060" y1="180" x2="980" y2="365" stroke="#5b9bd5" stroke-width="1" opacity="0.45"/>
+    <line x1="1060" y1="180" x2="1140" y2="335" stroke="#5b9bd5" stroke-width="0.8" opacity="0.35"/>
+
+    <!-- Three apex nodes -->
+    <circle cx="540" cy="180" r="34" fill="url(#cyanNode)"/>
+    <circle cx="540" cy="180" r="8" fill="#aed4ec"/>
+
+    <circle cx="800" cy="140" r="42" fill="url(#amberNode)"/>
+    <circle cx="800" cy="140" r="10" fill="#f0c685"/>
+
+    <circle cx="1060" cy="180" r="34" fill="url(#cyanNode)"/>
+    <circle cx="1060" cy="180" r="8" fill="#aed4ec"/>
+  </g>
+
+  <!-- ============================================================
+       Faint vertical guide of "rise" — the dispersion → coherence motion
+       ============================================================ -->
+
+  <g opacity="0.08">
+    <line x1="800" y1="800" x2="800" y2="100" stroke="#5b9bd5" stroke-width="1"/>
+  </g>
+</svg>
