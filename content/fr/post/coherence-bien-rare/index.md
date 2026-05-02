@@ -103,9 +103,9 @@ Ce qui échappe à ce cadre reste hors champ. Les arbitrages techniques en amont
 
 ---
 
-## Twyne, la grammaire des agents
+## Twyne root-archetype, la grammaire des agents
 
-C'est précisément sur ce terrain que Twyne intervient.
+C'est précisément sur ce terrain qu'intervient *root-archetype*, la couche de gouvernance d'agents que l'équipe de Twyne utilise en interne et a publiée sous licence ouverte.
 
 Avec [*root-archetype*](https://github.com/0xTwyne/root-archetype), l'approche consiste à introduire, au-dessus du code applicatif, un référentiel qui ne produit rien directement, mais qui définit les conditions de production elles-mêmes. Rôles, mémoire, protocoles de transmission, contraintes partagées : tout ce qui permet de donner une forme à la continuité du travail.
 
@@ -117,9 +117,11 @@ Une session ne repart plus de zéro. Le contexte est transmis. La connaissance c
 
 Publié sous licence ouverte, ce modèle a vocation à devenir une primitive. Il propose une grammaire minimale à partir de laquelle un écosystème peut se structurer.
 
-La symétrie avec Aragon est claire : Aragon codifie la décision, Twyne la production. L'un structure ce qui est décidé, l'autre structure ce qui est produit.
+La symétrie avec Aragon est claire. Aragon codifie la décision côté capital. Twyne root-archetype codifie la grammaire du travail côté agents. L'un structure ce qui est décidé, l'autre structure ce qui rend la décision possible.
 
 Mais aucun des deux ne rend visible la manière dont ces deux dimensions interagissent.
+
+Twyne lui-même, le protocole de délégation de crédit que cette équipe construit, illustre d'ailleurs précisément pourquoi cette couche manque. La sécurité d'une primitive de crédit dépend de décisions amont, choix de paramètres, sélection d'oracles, configuration des vérificateurs, exactement le type de décisions qui, lorsqu'elles restent invisibles, deviennent les conditions d'une sortie brutale plus tard. Ce qui s'est joué chez Kelp est de cette nature précise, et c'est ce qui rend la question de leur lisibilité non théorique.
 
 ---
 
@@ -127,7 +129,7 @@ Mais aucun des deux ne rend visible la manière dont ces deux dimensions interag
 
 C'est à ce point que le problème devient lisible.
 
-Ni Aragon, ni Twyne ne rendent visible la manière dont décision, capital et production s'articulent dans le temps.
+Ni Aragon, ni Twyne root-archetype ne rendent visible la manière dont décision, capital et production s'articulent dans le temps.
 
 C'est précisément cette invisibilité qui a rendu possible Kelp.
 
@@ -207,7 +209,7 @@ C'est cette dimension qui a fait défaut chez Kelp. Et c'est elle qui détermine
 
 ## Pour finir
 
-Aragon et Twyne ont posé des briques essentielles.
+Aragon et Twyne root-archetype ont posé des briques essentielles.
 
 L'un sur la décision et le capital.
 
