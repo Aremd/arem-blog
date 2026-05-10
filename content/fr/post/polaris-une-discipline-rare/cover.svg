@@ -1,0 +1,145 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <!-- Fond gradient intensité B -->
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0e1c2f"/>
+      <stop offset="100%" style="stop-color:#172b45"/>
+    </linearGradient>
+
+    <!-- Halo amber autour de l'étoile centrale -->
+    <radialGradient id="halo-amber" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#e8b86a;stop-opacity:0.55"/>
+      <stop offset="35%" style="stop-color:#d4983a;stop-opacity:0.22"/>
+      <stop offset="100%" style="stop-color:#d4983a;stop-opacity:0"/>
+    </radialGradient>
+
+    <!-- Halo cyan secondaire -->
+    <radialGradient id="halo-cyan" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#7bd3e8;stop-opacity:0.35"/>
+      <stop offset="60%" style="stop-color:#5aa8c4;stop-opacity:0.1"/>
+      <stop offset="100%" style="stop-color:#5aa8c4;stop-opacity:0"/>
+    </radialGradient>
+
+    <!-- Glow étoile centrale -->
+    <radialGradient id="star-core" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#fff8e8;stop-opacity:1"/>
+      <stop offset="40%" style="stop-color:#f4d488;stop-opacity:0.9"/>
+      <stop offset="100%" style="stop-color:#e8b86a;stop-opacity:0"/>
+    </radialGradient>
+
+    <!-- Halo nœud cyan (petit) -->
+    <radialGradient id="node-cyan" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#a8e0f0;stop-opacity:0.95"/>
+      <stop offset="50%" style="stop-color:#7bd3e8;stop-opacity:0.4"/>
+      <stop offset="100%" style="stop-color:#7bd3e8;stop-opacity:0"/>
+    </radialGradient>
+
+    <!-- Halo nœud amber (petit) -->
+    <radialGradient id="node-amber" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#f4d488;stop-opacity:0.95"/>
+      <stop offset="50%" style="stop-color:#e8b86a;stop-opacity:0.4"/>
+      <stop offset="100%" style="stop-color:#e8b86a;stop-opacity:0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Fond -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Halo cyan diffus en arrière-plan, légèrement décalé pour suggérer un état antérieur -->
+  <circle cx="540" cy="335" r="320" fill="url(#halo-cyan)" opacity="0.6"/>
+
+  <!-- Halo amber principal centré sur l'étoile -->
+  <circle cx="600" cy="315" r="380" fill="url(#halo-amber)"/>
+
+  <!-- Arcs concentriques — anciens (état v1, en pointillé léger, décalés) -->
+  <g opacity="0.28" stroke="#7bd3e8" fill="none" stroke-dasharray="2,6">
+    <circle cx="540" cy="335" r="80" stroke-width="1"/>
+    <circle cx="540" cy="335" r="140" stroke-width="1"/>
+    <circle cx="540" cy="335" r="210" stroke-width="1"/>
+    <circle cx="540" cy="335" r="290" stroke-width="1"/>
+  </g>
+
+  <!-- Arcs concentriques — nouveaux (état Flows, traits pleins lumineux, recentrés) -->
+  <g fill="none">
+    <circle cx="600" cy="315" r="60" stroke="#e8b86a" stroke-width="1.4" opacity="0.65"/>
+    <circle cx="600" cy="315" r="115" stroke="#e8b86a" stroke-width="1.4" opacity="0.55"/>
+    <circle cx="600" cy="315" r="180" stroke="#d4983a" stroke-width="1.6" opacity="0.5"/>
+    <circle cx="600" cy="315" r="255" stroke="#d4983a" stroke-width="1.6" opacity="0.42"/>
+    <circle cx="600" cy="315" r="335" stroke="#a87a2c" stroke-width="1.8" opacity="0.32"/>
+  </g>
+
+  <!-- Étoile centrale (Polaris) — branche horizontale + verticale avec glow -->
+  <g transform="translate(600,315)">
+    <!-- Glow halo -->
+    <circle cx="0" cy="0" r="55" fill="url(#star-core)"/>
+    <!-- Branches de l'étoile (croix à 4 branches lumineuse) -->
+    <g stroke="#fff8e8" stroke-linecap="round" opacity="0.95">
+      <line x1="-50" y1="0" x2="50" y2="0" stroke-width="2.2"/>
+      <line x1="0" y1="-50" x2="0" y2="50" stroke-width="2.2"/>
+      <line x1="-30" y1="-30" x2="30" y2="30" stroke-width="1.2" opacity="0.7"/>
+      <line x1="-30" y1="30" x2="30" y2="-30" stroke-width="1.2" opacity="0.7"/>
+    </g>
+    <!-- Cœur lumineux -->
+    <circle cx="0" cy="0" r="6" fill="#fff8e8"/>
+    <circle cx="0" cy="0" r="3" fill="#fff"/>
+  </g>
+
+  <!-- Nœuds réorganisés — anciens (cyan, en pointillé reliant à l'étoile décalée) -->
+  <g opacity="0.4">
+    <line x1="540" y1="335" x2="380" y2="220" stroke="#7bd3e8" stroke-width="1" stroke-dasharray="3,5"/>
+    <line x1="540" y1="335" x2="420" y2="480" stroke="#7bd3e8" stroke-width="1" stroke-dasharray="3,5"/>
+    <line x1="540" y1="335" x2="700" y2="500" stroke="#7bd3e8" stroke-width="1" stroke-dasharray="3,5"/>
+
+    <circle cx="380" cy="220" r="14" fill="url(#node-cyan)" opacity="0.5"/>
+    <circle cx="420" cy="480" r="14" fill="url(#node-cyan)" opacity="0.5"/>
+    <circle cx="700" cy="500" r="14" fill="url(#node-cyan)" opacity="0.5"/>
+  </g>
+
+  <!-- Nœuds réorganisés — nouveaux (amber, traits pleins reliant à l'étoile recentrée) -->
+  <g>
+    <line x1="600" y1="315" x2="450" y2="180" stroke="#e8b86a" stroke-width="1.3" opacity="0.6"/>
+    <line x1="600" y1="315" x2="780" y2="195" stroke="#e8b86a" stroke-width="1.3" opacity="0.6"/>
+    <line x1="600" y1="315" x2="820" y2="430" stroke="#e8b86a" stroke-width="1.3" opacity="0.6"/>
+    <line x1="600" y1="315" x2="490" y2="510" stroke="#e8b86a" stroke-width="1.3" opacity="0.6"/>
+    <line x1="600" y1="315" x2="320" y2="370" stroke="#e8b86a" stroke-width="1.3" opacity="0.55"/>
+
+    <!-- Connexions inter-nœuds (composabilité) -->
+    <line x1="450" y1="180" x2="780" y2="195" stroke="#d4983a" stroke-width="0.8" opacity="0.35"/>
+    <line x1="780" y1="195" x2="820" y2="430" stroke="#d4983a" stroke-width="0.8" opacity="0.35"/>
+    <line x1="820" y1="430" x2="490" y2="510" stroke="#d4983a" stroke-width="0.8" opacity="0.35"/>
+    <line x1="490" y1="510" x2="320" y2="370" stroke="#d4983a" stroke-width="0.8" opacity="0.35"/>
+    <line x1="320" y1="370" x2="450" y2="180" stroke="#d4983a" stroke-width="0.8" opacity="0.35"/>
+
+    <!-- Nœuds amber pleins -->
+    <circle cx="450" cy="180" r="11" fill="url(#node-amber)"/>
+    <circle cx="450" cy="180" r="4" fill="#f4d488"/>
+
+    <circle cx="780" cy="195" r="11" fill="url(#node-amber)"/>
+    <circle cx="780" cy="195" r="4" fill="#f4d488"/>
+
+    <circle cx="820" cy="430" r="13" fill="url(#node-amber)"/>
+    <circle cx="820" cy="430" r="5" fill="#f4d488"/>
+
+    <circle cx="490" cy="510" r="11" fill="url(#node-amber)"/>
+    <circle cx="490" cy="510" r="4" fill="#f4d488"/>
+
+    <circle cx="320" cy="370" r="10" fill="url(#node-amber)"/>
+    <circle cx="320" cy="370" r="4" fill="#f4d488"/>
+  </g>
+
+  <!-- Petits points d'étoiles secondaires (ciel nocturne, navigation) -->
+  <g fill="#fff8e8">
+    <circle cx="120" cy="90" r="1.5" opacity="0.8"/>
+    <circle cx="200" cy="140" r="1" opacity="0.6"/>
+    <circle cx="1080" cy="80" r="1.8" opacity="0.85"/>
+    <circle cx="1130" cy="160" r="1" opacity="0.5"/>
+    <circle cx="950" cy="60" r="1.2" opacity="0.7"/>
+    <circle cx="80" cy="540" r="1.5" opacity="0.7"/>
+    <circle cx="160" cy="580" r="1" opacity="0.5"/>
+    <circle cx="1100" cy="540" r="1.3" opacity="0.7"/>
+    <circle cx="1040" cy="590" r="1" opacity="0.55"/>
+    <circle cx="950" cy="560" r="0.9" opacity="0.4"/>
+    <circle cx="270" cy="60" r="0.9" opacity="0.45"/>
+    <circle cx="880" cy="100" r="1" opacity="0.5"/>
+  </g>
+</svg>
