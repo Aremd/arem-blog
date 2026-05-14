@@ -24,24 +24,6 @@ Its purpose is not only to clarify risk, but to make situations intelligible eno
 
 This distinction changes what is expected from the reader. Not vigilance alone, but agency.
 
-## Why this is also security work
-
-Defensive infrastructure protects users from harm, through audits, monitoring, key management. That work is essential.
-
-But a system whose participants cannot read what they are taking part in produces a different failure mode: erosion through indifference. Protocols survive on momentum rather than intent. Risks are read through incompatible cuts that no one synthesizes. Users protect themselves while the commons stays undefended.
-
-That failure is also a security problem, and it sits upstream of every audit. **Editorial work that restores coordinated reading and makes situations intelligible enough to be chosen is security work at the layer where it is currently missing.**
-
-This view of security is not isolated. Industry-wide calls, like the recent statement from zeroShadow, SEAL, Bybit and others on coordinated crypto freezes and recoveries, make explicit that the absence of shared frameworks, common reading, and collaborative response is itself a structural vulnerability. Editorial work upstream of these coordination problems is part of the same effort.
-
-## Servile and transversal watchfulness
-
-The ecosystem has learned to fund part of its observation layer. Risk providers paid by the DAOs they analyze. Security firms under commercial contract. Audit shops with retainers. This work is serious and useful, but it serves an identified payer.
-
-Alongside it runs another function, rarer and more exposed: transversal watchfulness. Observers that look at several competing protocols without belonging to any of them. That can map dependencies cutting across actors. That can call out a problem affecting a potential payer without jeopardizing their economic survival.
-
-The distinction is structural. Servile watchfulness is funded. Transversal watchfulness mostly is not. The blog operates in the second register, and it is itself a concrete case of the question it raises: how to sustain a transversal layer that, by definition, cannot sell services to what it observes.
-
 ## What you'll find here
 
 The blog approaches DeFi as a field of situations rather than a collection of protocols. Its work consists in:
@@ -60,21 +42,23 @@ A discipline of delegation, with the four-part series *Self-Custody, But How Far
 
 An economy of public attention, with *Transversal Watchfulness*, on what DeFi still does not fund: the structures that observe the system without belonging to any of its parts.
 
+## Transversal watchfulness
+
+The ecosystem has learned to fund part of its observation layer: risk providers paid by the DAOs they analyze, security firms under commercial contract, audit shops with retainers. This work is serious and useful, but it serves an identified payer.
+
+Alongside it runs another function, rarer and more exposed: transversal watchfulness. Observers that look at several competing protocols without belonging to any of them, that can map dependencies cutting across actors, that can call out a problem affecting a potential payer without jeopardizing their economic survival.
+
+The distinction is structural. The blog operates in the second register.
+
 ## How
 
 All content is published in full, in two languages (French and English), for free, with no sponsorship and no affiliate links. Independence is structural, not performative.
 
-## A wider effort
-
-Beyond individual pieces, the blog is an attempt to begin something the ecosystem currently lacks: **a public narrative on what we are collectively building**, supporting, and bringing into existence in DeFi. Not a doctrine, not a manifesto. A space where situations can be read carefully enough to be chosen, and where that reading can be shared, contested, extended.
-
-This is not the work of one writer alone. The point is to start, clearly enough that others can join, *infléchir*, or build alongside. The current corpus is the first contribution to that space. The blog is meant to be a beginning, not a conclusion.
-
 ## Support
 
-In April 2026, the blog applied to the Ethereum Security QF Round on Giveth, following a direct invitation from Griff Green to participate as an editorial observer publishing for free.
+arem.blog has a project page on Giveth, open for independent support of this editorial work. The page exists as a sustainable channel for contributions from readers who find the work useful.
 
-The project page on Giveth is the place to support this work: [giveth.io/project/editorial-observer](https://giveth.io/project/editorial-observer).
+→ [giveth.io/project/editorial-observer](https://giveth.io/project/editorial-observer)
 
 ## Contact
 

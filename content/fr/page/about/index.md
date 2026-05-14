@@ -24,24 +24,6 @@ Son objectif n'est pas seulement de clarifier le risque, mais de rendre les situ
 
 Cette distinction transforme l'exigence vis-à-vis du lecteur : ne plus être un acteur sur la défensive, en mode d'ultra-vigilance, mais renouer avec une capacité à décider et à agir en fonction de ses convictions.
 
-## C'est aussi un travail de sécurité
-
-Les infrastructures de défense protègent les utilisateurs contre les dommages : audits, monitoring, gestion des clés. Ce travail est indispensable.
-
-Mais un système dont les participants ne peuvent pas lire ce à quoi ils prennent part engendre un autre type de défaillance : une érosion par l'indifférence. Les protocoles se maintiennent par inertie plutôt que par intention. Les risques sont lus selon des découpages incompatibles que personne ne synthétise. Les utilisateurs se protègent individuellement tandis que le commun demeure sans défense.
-
-Cette défaillance est elle aussi un problème de sécurité, et elle se situe en amont de tout audit. **Un travail éditorial qui restaure une lecture coordonnée et rend les situations suffisamment intelligibles pour être choisies relève d'un niveau de sécurité qui manque aujourd'hui.**
-
-Cette conception de la sécurité n'est pas isolée. Des appels collectifs au sein de l'industrie, comme la déclaration récente de zeroShadow, SEAL, Bybit et d'autres sur la coordination des freezes et recoveries crypto, rendent explicite que l'absence de cadres partagés, de lecture commune et de réponse collaborative constitue en soi une vulnérabilité structurelle. Un travail éditorial situé en amont de ces problèmes de coordination s'inscrit dans le même effort.
-
-## Vigilance servile et vigilance transversale
-
-L'écosystème a appris à financer une partie de sa couche d'observation. Des fournisseurs de risque rémunérés par les DAO qu'ils analysent. Des sociétés de sécurité sous contrat commercial. Des cabinets d'audit sous rétention. Ce travail est sérieux et utile, mais il sert un payeur identifié.
-
-En parallèle, une autre fonction existe, plus rare et plus exposée : la vigilance transversale. Des observateurs qui regardent plusieurs protocoles sans appartenir à aucun. Qui peuvent cartographier des dépendances entre acteurs. Qui peuvent signaler un problème affectant un payeur potentiel sans compromettre leur propre viabilité économique.
-
-La distinction est structurelle. La vigilance servile est financée. La vigilance transversale ne l'est presque pas. Le blog opère dans ce second registre, et constitue en lui-même un cas concret de la question qu'il pose : comment soutenir une couche transversale qui, par définition, ne peut vendre ses services à ce qu'elle observe.
-
 ## Ce que vous trouverez ici
 
 Le blog aborde la DeFi comme un champ de situations plutôt que comme l'examen de protocoles. Son travail consiste à :
@@ -60,21 +42,23 @@ Une discipline de la délégation, avec la série en quatre parties *Self-Custod
 
 Une économie de l'attention publique, avec *Transversal Watchfulness*, sur ce que la DeFi ne finance toujours pas : les structures qui observent le système sans appartenir à aucune de ses parties.
 
+## Vigilance transversale
+
+L'écosystème a appris à financer une partie de sa couche d'observation : fournisseurs de risque rémunérés par les DAO qu'ils analysent, sociétés de sécurité sous contrat, cabinets d'audit sous rétention. Ce travail est sérieux et utile, mais il sert un payeur identifié.
+
+En parallèle existe une autre fonction, plus rare et plus exposée : la vigilance transversale. Des observateurs qui regardent plusieurs protocoles sans appartenir à aucun, qui cartographient des dépendances entre acteurs, qui peuvent signaler un problème affectant un payeur potentiel sans compromettre leur propre viabilité économique.
+
+La distinction est structurelle. Ce blog opère dans ce second registre.
+
 ## Comment
 
 L'ensemble des contenus est publié intégralement, en deux langues (français et anglais), gratuitement, sans sponsor ni liens affiliés. L'indépendance est structurelle, non performative.
 
-## Un engagement plus large
-
-Au-delà des textes individuels, ce blog est une tentative d'amorcer ce qui manque aujourd'hui à l'écosystème : **un récit public sur ce que nous construisons collectivement**, sur ce que nous soutenons et faisons advenir en DeFi. Ni doctrine, ni manifeste. Un espace où les situations peuvent être lues avec suffisamment de soin pour être choisies, et où cette lecture peut être partagée, discutée, prolongée.
-
-Ce ne sera pas le travail d'un seul auteur. L'enjeu est d'initier quelque chose d'assez clair pour que d'autres puissent rejoindre, infléchir ou construire à partir de là. Le corpus actuel constitue une première contribution à cet espace. Le blog est pensé comme un commencement, non comme une conclusion.
-
 ## Soutien
 
-En avril 2026, le blog a candidaté au round Ethereum Security QF sur Giveth, suite à une invitation directe de Griff Green à y participer en tant qu'observateur éditorial publiant en accès libre.
+arem.blog dispose d'une page projet sur Giveth, ouverte au soutien indépendant de ce travail éditorial. La page existe comme canal pérenne pour les contributions des lecteurs qui trouvent ce travail utile.
 
-La page projet sur Giveth est l'endroit pour soutenir ce travail : [giveth.io/project/editorial-observer](https://giveth.io/project/editorial-observer).
+→ [giveth.io/project/editorial-observer](https://giveth.io/project/editorial-observer)
 
 ## Contact
 
