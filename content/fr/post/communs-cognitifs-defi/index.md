@@ -13,12 +13,11 @@ tags:
   - Commons
   - Governance
 image: cover.png
-coverTheme: pharos
+coverTheme: commons
 draft: false
 ---
 
 *À propos des textes de David Hoffman, du rapport Productive Money d'Etherealize, et de la proposition de Dankrad Feist — mai 2026.*
-
 
 ## Le silence pédagogique
 
@@ -31,7 +30,6 @@ Ce décalage mérite attention. Non parce qu'il révélerait une forme de manipu
 J'écris depuis une position extérieure aux métiers techniques de l'écosystème. Mon intérêt porte moins sur les propriétés cryptographiques des protocoles que sur les formes de connaissance qui les accompagnent. Ce texte propose donc une lecture de la pédagogie comme objet politique. Mon hypothèse est simple : **la DeFi a développé une couche pédagogique particulièrement efficace pour apprendre à agir dans le système, beaucoup moins développée lorsqu'il s'agit de comprendre les structures qui rendent ce système possible.** Cette asymétrie dépasse largement la question de l'utilisateur individuel. Elle concerne la production et l'entretien des communs cognitifs dont dépend tout écosystème ouvert : pédagogie indépendante, recherche critique, méthodologies publiques, standards d'évaluation, infrastructures de lisibilité.
 
 La séquence actuelle autour d'Ethereum offre une occasion rare d'observer ces questions à découvert.
-
 
 ## La pédagogie comme infrastructure
 
@@ -46,7 +44,6 @@ Dans la plupart des domaines, cette sélection rencontre des formes de contre-di
 La DeFi dispose encore relativement peu de ces espaces. Elle possède une abondante production pédagogique, mais des capacités beaucoup plus limitées de contre-pédagogie. **L'écosystème produit massivement des contenus qui expliquent comment utiliser les protocoles. Les institutions capables d'examiner leurs hypothèses, leurs récits ou leurs angles morts demeurent beaucoup plus rares.**
 
 La question n'est donc pas celle d'une pédagogie biaisée face à une pédagogie neutre. Une telle pédagogie n'existe nulle part. La question concerne plutôt l'équilibre entre pédagogie et contre-pédagogie au sein d'un environnement qui continue de se construire.
-
 
 ## Ce que la DeFi prétendait être
 
@@ -63,7 +60,6 @@ Toute une tradition de pensée critique a montré comment le capitalisme contemp
 La trajectoire de nombreux concepts crypto ressemble parfois à ce mouvement. La souveraineté devient une proposition produit. La désintermédiation devient un argument marketing. La résistance à la censure devient une caractéristique technique parmi d'autres. Le vocabulaire demeure. Son inscription institutionnelle change progressivement.
 
 Cette évolution ne résulte pas nécessairement d'une trahison. Elle accompagne souvent la croissance ordinaire des systèmes. La question devient alors celle des institutions capables de préserver, documenter et discuter les promesses initiales lorsque les logiques de développement économique occupent une place croissante.
-
 
 ## La production de lisibilité
 
@@ -83,7 +79,6 @@ Les initiatives comme [DeFiScan](https://www.defiscan.info) ou [L2BEAT](https://
 
 Autrement dit, elles participent à la fabrication d'un commun cognitif.
 
-
 ## La crise Ethereum comme révélateur
 
 Les débats récents autour de David Hoffman, d'Etherealize et de Dankrad Feist permettent de relire cette question sous un angle institutionnel.
@@ -102,7 +97,6 @@ La tension entre ces deux positions dépasse largement Ethereum. Elle pose une q
 
 L'expérience récente suggère une réponse partielle. **Les couches disposant d'un modèle économique identifiable émergent rapidement** : défense de l'actif, infrastructures de données, outils analytiques, produits financiers, dispositifs de croissance. **Les communs cognitifs suivent un rythme beaucoup plus lent.** Leur valeur collective est élevée ; leur modèle économique demeure souvent fragile.
 
-
 ## Financer les communs cognitifs
 
 Cette situation ne relève pas d'un échec particulier d'Ethereum. Elle décrit une difficulté récurrente des infrastructures ouvertes.
@@ -119,7 +113,6 @@ Certaines réponses existent déjà. [Gitcoin](https://www.gitcoin.co), [Giveth]
 
 Le sujet demeure néanmoins largement ouvert. Les outils existent. Les mécanismes existent. Les besoins sont identifiés avec une précision croissante. **Les institutions capables d'en faire une priorité restent encore peu nombreuses.**
 
-
 ## Ce que révèle la séquence actuelle
 
 La crise traversée aujourd'hui par Ethereum ne porte probablement pas uniquement sur la valorisation d'un actif, la gouvernance d'une fondation ou la stratégie d'un écosystème.
@@ -135,7 +128,6 @@ L'enjeu dépasse largement Ethereum. Chaque nouvelle infrastructure ouverte renc
 La réponse ne dépend probablement ni du marché seul, ni d'une fondation seule, ni de quelques individus particulièrement motivés. Elle dépend de la capacité d'un écosystème à considérer la production de connaissance comme un bien commun à part entière.
 
 C'est peut-être sous cet angle que la séquence actuelle apparaît la plus intéressante. Elle ne révèle pas seulement les fragilités d'un protocole. **Elle rappelle qu'aucun commun technique ne demeure durablement ouvert sans institutions capables d'entretenir les communs cognitifs qui lui donnent sens.**
-
 
 ---
 

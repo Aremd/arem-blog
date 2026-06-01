@@ -13,12 +13,11 @@ tags:
   - Commons
   - Governance
 image: cover.png
-coverTheme: pharos
+coverTheme: commons
 draft: false
 ---
 
 *On David Hoffman's writings, Etherealize's Productive Money report, and Dankrad Feist's proposal — May 2026.*
-
 
 ## The Pedagogical Silence
 
@@ -31,7 +30,6 @@ This gap deserves attention. Not because it reveals manipulation or bad faith, b
 I write from outside the ecosystem's technical professions. My interest lies less in the cryptographic properties of protocols than in the forms of knowledge that surround them. This text therefore approaches pedagogy as a political object. My central hypothesis is straightforward: **DeFi has developed a teaching layer that is highly effective at showing users how to operate within the system, and far less developed when it comes to understanding the structures that sustain it.** This asymmetry extends well beyond the individual user. It concerns the production and maintenance of the cognitive commons on which every open ecosystem depends: independent pedagogy, critical research, public methodologies, evaluation standards, and infrastructures of legibility.
 
 The current Ethereum sequence offers a rare opportunity to observe these questions in plain view.
-
 
 ## Pedagogy as Infrastructure
 
@@ -46,7 +44,6 @@ In most fields, those selections encounter relatively stable forms of counter-di
 DeFi still has relatively few such spaces. It possesses a rich educational output but a much thinner capacity for counter-pedagogy. **The ecosystem produces an abundance of material explaining how protocols work. Institutions capable of examining the assumptions, narratives, and blind spots embedded in those materials remain comparatively rare.**
 
 The issue is therefore not one of biased pedagogy versus neutral pedagogy. No genuinely neutral pedagogy exists. The issue concerns the balance between pedagogy and counter-pedagogy within an environment that is still taking shape.
-
 
 ## What DeFi Claimed to Be
 
@@ -63,7 +60,6 @@ An entire tradition of critical thought has shown how contemporary capitalism ab
 The trajectory of many crypto concepts at times resembles this movement. Sovereignty becomes a product proposition. Disintermediation becomes a marketing argument. Censorship resistance becomes one technical feature among many. The vocabulary remains. Its institutional anchoring gradually shifts.
 
 This evolution does not necessarily amount to a betrayal. It frequently accompanies the ordinary growth of systems. The question that follows becomes one of institutions — which institutions are able to preserve, document, and discuss the original promises as the logics of economic development take up increasing space.
-
 
 ## The Production of Legibility
 
@@ -83,7 +79,6 @@ Initiatives such as [DeFiScan](https://www.defiscan.info) and [L2BEAT](https://l
 
 In other words, they participate in building a cognitive commons.
 
-
 ## The Ethereum Crisis as a Revealer
 
 The recent debates surrounding David Hoffman, Etherealize, and Dankrad Feist allow us to reread this question through an institutional lens.
@@ -102,7 +97,6 @@ The tension between these two positions extends well beyond Ethereum. It raises 
 
 Recent experience suggests a partial answer. **Layers with an identifiable economic model emerge rapidly**: defense of the asset, data infrastructures, analytical tools, financial products, growth machinery. **Cognitive commons follow a far slower rhythm.** Their collective value is high; their economic model often remains fragile.
 
-
 ## Funding the Cognitive Commons
 
 This situation does not represent a specific failure of Ethereum. It describes a recurring difficulty faced by open infrastructures.
@@ -119,7 +113,6 @@ Some answers already exist. [Gitcoin](https://www.gitcoin.co), [Giveth](https://
 
 The subject nevertheless remains largely open. The tools exist. The mechanisms exist. The needs are being identified with increasing precision. **The institutions willing to make this a priority are still few.**
 
-
 ## What the Current Sequence Reveals
 
 The crisis Ethereum is currently navigating is probably not solely about the valuation of an asset, the governance of a foundation, or the strategy of an ecosystem.
@@ -135,7 +128,6 @@ The stakes extend well beyond Ethereum. Every new open infrastructure encounters
 The answer probably does not lie with the market alone, with a foundation alone, or with a handful of particularly motivated individuals. It lies with an ecosystem's capacity to treat the production of knowledge as a common good in its own right.
 
 It is perhaps from this angle that the current sequence becomes most revealing. It does not merely expose the fragilities of a protocol. **It reminds us that no technical commons remains open over time without institutions capable of maintaining the cognitive commons that give it meaning.**
-
 
 ---
 
