@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1000" font-family="Georgia, 'Times New Roman', serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0e1c2f"/>
+      <stop offset="1" stop-color="#172b45"/>
+    </linearGradient>
+    <linearGradient id="stewardBand" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1c2530"/>
+      <stop offset="1" stop-color="#19222e"/>
+    </linearGradient>
+    <linearGradient id="execBand" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#182029"/>
+      <stop offset="1" stop-color="#141b23"/>
+    </linearGradient>
+    <marker id="arrow" markerWidth="9" markerHeight="9" refX="6.5" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L7,3 L0,6 Z" fill="#7d93a8"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="1000" fill="url(#bg)"/>
+
+  <text x="600" y="58" text-anchor="middle" font-size="30" fill="#eef2f6" font-weight="bold">Le paysage Ethereum en évolution après dispersion</text>
+  <text x="600" y="92" text-anchor="middle" font-size="19" fill="#8aa0b4" font-style="italic">Juillet 2026 &#183; Qui stewarde ? Qui exécute ?</text>
+
+  <rect x="40" y="122" width="1120" height="440" rx="10" fill="url(#stewardBand)" stroke="#2a3542" stroke-width="1.5"/>
+  <text x="70" y="164" font-size="23" fill="#5b9bd5" font-weight="bold" letter-spacing="1">COUCHE DE STEWARDSHIP</text>
+  <text x="70" y="192" font-size="16" fill="#8aa0b4" font-style="italic">Organisations à but non lucratif &#183; doctrine CROPS &#183; financées par dotation ou dons &#183; une même cohorte</text>
+
+  <!-- EF center -->
+  <rect x="430" y="212" width="340" height="72" rx="8" fill="#0e1c2f" stroke="#5b9bd5" stroke-width="2"/>
+  <text x="600" y="245" text-anchor="middle" font-size="20" fill="#eef2f6" font-weight="bold">Ethereum Foundation</text>
+  <text x="600" y="269" text-anchor="middle" font-size="14" fill="#8aa0b4">Doctrine, coordination &#183; cible 5 % en 2030</text>
+
+  <!-- LINKS drawn BEFORE row-1 cards so they pass UNDER row-1 labels -->
+  <!-- to row 2 (long, will be hidden behind row-1 cards) -->
+  <line x1="520" y1="284" x2="210" y2="418" stroke="#7d93a8" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <line x1="560" y1="284" x2="469" y2="418" stroke="#7d93a8" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <line x1="640" y1="284" x2="820" y2="418" stroke="#7d93a8" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <!-- to row 1 (short) -->
+  <line x1="470" y1="284" x2="230" y2="310" stroke="#7d93a8" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <line x1="505" y1="284" x2="475" y2="310" stroke="#7d93a8" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <line x1="695" y1="284" x2="735" y2="310" stroke="#7d93a8" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <line x1="730" y1="284" x2="990" y2="310" stroke="#7d93a8" stroke-width="1.8" marker-end="url(#arrow)"/>
+
+  <!-- ROW 1 cards (drawn over the long links to row 2) -->
+  <rect x="70" y="312" width="255" height="86" rx="8" fill="#1f2935" stroke="#3a4a5a" stroke-width="1.3"/>
+  <text x="197" y="342" text-anchor="middle" font-size="17" fill="#eef2f6" font-weight="bold">Protocol Guild</text>
+  <text x="197" y="364" text-anchor="middle" font-size="13" fill="#9fb2c4">Financement des core devs</text>
+  <text x="197" y="384" text-anchor="middle" font-size="12" fill="#6f8296" font-style="italic">2022 &#183; dons on-chain</text>
+
+  <rect x="342" y="312" width="255" height="86" rx="8" fill="#1f2935" stroke="#3a4a5a" stroke-width="1.3"/>
+  <text x="469" y="342" text-anchor="middle" font-size="17" fill="#eef2f6" font-weight="bold">Argot Collective</text>
+  <text x="469" y="364" text-anchor="middle" font-size="13" fill="#9fb2c4">Maintenance des logiciels libres</text>
+  <text x="469" y="384" text-anchor="middle" font-size="12" fill="#6f8296" font-style="italic">oct. 2024 &#183; amorçage EF</text>
+
+  <rect x="614" y="312" width="255" height="86" rx="8" fill="#1f2935" stroke="#3a4a5a" stroke-width="1.3"/>
+  <text x="741" y="342" text-anchor="middle" font-size="17" fill="#eef2f6" font-weight="bold">Etherealize</text>
+  <text x="741" y="364" text-anchor="middle" font-size="13" fill="#9fb2c4">Adoption institutionnelle</text>
+  <text x="741" y="384" text-anchor="middle" font-size="12" fill="#6f8296" font-style="italic">jan. 2025 &#183; levée + grant EF</text>
+
+  <rect x="886" y="312" width="244" height="86" rx="8" fill="#1f2935" stroke="#3a4a5a" stroke-width="1.3"/>
+  <text x="1008" y="342" text-anchor="middle" font-size="17" fill="#eef2f6" font-weight="bold">EEZ</text>
+  <text x="1008" y="364" text-anchor="middle" font-size="13" fill="#9fb2c4">Interopérabilité entre rollups</text>
+  <text x="1008" y="384" text-anchor="middle" font-size="12" fill="#6f8296" font-style="italic">mars 2026 &#183; financé EF</text>
+
+  <!-- ROW 2 cards -->
+  <rect x="70" y="418" width="255" height="86" rx="8" fill="#1f2935" stroke="#3a4a5a" stroke-width="1.3"/>
+  <text x="197" y="448" text-anchor="middle" font-size="17" fill="#eef2f6" font-weight="bold">EAG</text>
+  <text x="197" y="470" text-anchor="middle" font-size="13" fill="#9fb2c4">Couche applicative</text>
+  <text x="197" y="490" text-anchor="middle" font-size="12" fill="#6f8296" font-style="italic">2026 &#183; rendements de staking</text>
+
+  <rect x="342" y="418" width="255" height="86" rx="8" fill="#22303f" stroke="#c98a52" stroke-width="1.6"/>
+  <text x="469" y="448" text-anchor="middle" font-size="17" fill="#eef2f6" font-weight="bold">ECF</text>
+  <text x="469" y="470" text-anchor="middle" font-size="13" fill="#d0a578">Projets sans jeton qui brûlent l'ETH</text>
+  <text x="469" y="490" text-anchor="middle" font-size="12" fill="#a5825e" font-style="italic">juil. 2025 &#183; hors EF, « ETH the asset »</text>
+
+  <rect x="614" y="418" width="516" height="86" rx="8" fill="#22303f" stroke="#c98a52" stroke-width="1.6"/>
+  <text x="872" y="446" text-anchor="middle" font-size="18" fill="#eef2f6" font-weight="bold">Ethlabs</text>
+  <text x="872" y="468" text-anchor="middle" font-size="13" fill="#d0a578">Recherche protocolaire et adoption &#183; « marquer des points »</text>
+  <text x="872" y="488" text-anchor="middle" font-size="12" fill="#a5825e" font-style="italic">22 juin 2026 &#183; financé par des trésoreries ETH (Bitmine, Sharplink, Lubin)</text>
+
+  <!-- copper legend, bottom-right of the stewardship frame, under ECF/Ethlabs -->
+  <text x="1130" y="528" text-anchor="end" font-size="12.5" fill="#c98a52" font-style="italic">En cuivre : financement par capital privé et défense explicite de l'actif</text>
+
+  <!-- THE GAP : neutral color, NOT copper -->
+  <text x="600" y="596" text-anchor="middle" font-size="17" fill="#8aa0b4" font-style="italic" font-weight="bold">Les deux couches ne se gouvernent pas ensemble</text>
+
+  <rect x="40" y="620" width="1120" height="250" rx="10" fill="url(#execBand)" stroke="#2a3542" stroke-width="1.5"/>
+  <text x="70" y="662" font-size="23" fill="#7f93a6" font-weight="bold" letter-spacing="1">COUCHE D'EXÉCUTION</text>
+  <text x="70" y="690" font-size="16" fill="#8aa0b4" font-style="italic">Entreprises &#183; gouvernance par jeton et conseil restreint &#183; concurrence de marché &#183; trois acteurs dominants</text>
+
+  <rect x="70" y="718" width="360" height="130" rx="8" fill="#20303d" stroke="#5b7c92" stroke-width="1.8"/>
+  <text x="250" y="756" text-anchor="middle" font-size="22" fill="#eef2f6" font-weight="bold">Base</text>
+  <text x="250" y="782" text-anchor="middle" font-size="14" fill="#9fb2c4">Opérée par Coinbase &#183; séquenceur unique</text>
+  <text x="250" y="818" text-anchor="middle" font-size="16" fill="#a9c4dc" font-weight="bold">≈ 60 % des transactions</text>
+
+  <rect x="447" y="718" width="300" height="130" rx="8" fill="#20303d" stroke="#5b7c92" stroke-width="1.4"/>
+  <text x="597" y="756" text-anchor="middle" font-size="20" fill="#eef2f6" font-weight="bold">Arbitrum</text>
+  <text x="597" y="782" text-anchor="middle" font-size="14" fill="#9fb2c4">DAO &#183; jeton ARB</text>
+  <text x="597" y="818" text-anchor="middle" font-size="16" fill="#a9c4dc" font-weight="bold">≈ 40 % de la valeur verrouillée</text>
+
+  <rect x="764" y="718" width="180" height="130" rx="8" fill="#20303d" stroke="#6d8595" stroke-width="1.1"/>
+  <text x="854" y="756" text-anchor="middle" font-size="18" fill="#eef2f6" font-weight="bold">Optimism</text>
+  <text x="854" y="782" text-anchor="middle" font-size="13" fill="#9fb2c4">Superchain</text>
+  <text x="854" y="818" text-anchor="middle" font-size="15" fill="#a9c4dc" font-weight="bold">≈ 6 %</text>
+
+  <rect x="961" y="718" width="169" height="130" rx="8" fill="#1a232d" stroke="#3a4a5a" stroke-width="1" stroke-dasharray="5 4"/>
+  <text x="1045" y="754" text-anchor="middle" font-size="14" fill="#8aa0b4" font-weight="bold">dizaines d'autres</text>
+  <text x="1045" y="778" text-anchor="middle" font-size="13" fill="#7a8c9e" font-style="italic">part résiduelle</text>
+  <text x="1045" y="818" text-anchor="middle" font-size="14" fill="#8aa0b4">top 3 ≈ 90 %</text>
+
+  <text x="70" y="920" font-size="15" fill="#8aa0b4">Parts de marché des rollups : ordres de grandeur (L2BEAT / DefiLlama, 2026).</text>
+  <text x="70" y="950" font-size="15" fill="#8aa0b4">Lecture : la dispersion est organisationnelle (huit véhicules) mais la concentration est cognitive (une même cohorte issue de l'EF) en haut,</text>
+  <text x="70" y="972" font-size="15" fill="#8aa0b4">et de marché (trois acteurs) en bas.</text>
+</svg>

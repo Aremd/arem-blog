@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" font-family="Georgia, serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0e1c2f"/>
+      <stop offset="1" stop-color="#172b45"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#5b9bd5" stop-opacity="0.9"/>
+      <stop offset="0.4" stop-color="#5b9bd5" stop-opacity="0.32"/>
+      <stop offset="1" stop-color="#5b9bd5" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="haloDim" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#7fb4e6" stop-opacity="0.5"/>
+      <stop offset="0.5" stop-color="#5b9bd5" stop-opacity="0.14"/>
+      <stop offset="1" stop-color="#5b9bd5" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="haloCopper" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#d0a578" stop-opacity="0.72"/>
+      <stop offset="0.45" stop-color="#c98a52" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#c98a52" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="center" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#cfe3f5" stop-opacity="0.55"/>
+      <stop offset="0.5" stop-color="#5b9bd5" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#5b9bd5" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- radiating lines from the center toward a dense periphery -->
+  <g stroke="#5b9bd5" stroke-opacity="0.22" stroke-width="1.1" fill="none">
+    <path d="M600,315 C440,250 320,215 165,175"/>
+    <path d="M600,315 C445,355 320,410 155,455"/>
+    <path d="M600,315 C775,250 910,205 1050,165"/>
+    <path d="M600,315 C785,365 920,420 1060,465"/>
+    <path d="M600,315 C545,190 510,130 480,80"/>
+    <path d="M600,315 C655,450 695,510 730,560"/>
+    <path d="M600,315 C400,300 300,300 210,305"/>
+    <path d="M600,315 C800,330 900,330 995,320"/>
+    <path d="M600,315 C520,250 470,225 405,195"/>
+    <path d="M600,315 C690,385 745,415 815,445"/>
+  </g>
+
+  <!-- satellite nodes: blue + a few copper, denser field -->
+  <circle cx="165" cy="175" r="66" fill="url(#halo)"/><circle cx="165" cy="175" r="7" fill="#ddeeff"/>
+  <circle cx="155" cy="455" r="58" fill="url(#haloDim)"/><circle cx="155" cy="455" r="6" fill="#cfe3f5"/>
+  <circle cx="1050" cy="165" r="62" fill="url(#halo)"/><circle cx="1050" cy="165" r="7" fill="#ddeeff"/>
+  <circle cx="1060" cy="465" r="56" fill="url(#haloCopper)"/><circle cx="1060" cy="465" r="6" fill="#e7c49a"/>
+  <circle cx="480" cy="80" r="42" fill="url(#haloDim)"/><circle cx="480" cy="80" r="5" fill="#bcd6ee"/>
+  <circle cx="730" cy="560" r="46" fill="url(#haloCopper)"/><circle cx="730" cy="560" r="6" fill="#e7c49a"/>
+  <circle cx="210" cy="305" r="40" fill="url(#haloDim)"/><circle cx="210" cy="305" r="5" fill="#bcd6ee"/>
+  <circle cx="995" cy="320" r="44" fill="url(#halo)"/><circle cx="995" cy="320" r="5" fill="#ddeeff"/>
+  <circle cx="405" cy="195" r="34" fill="url(#haloDim)"/><circle cx="405" cy="195" r="4" fill="#bcd6ee"/>
+  <circle cx="815" cy="445" r="38" fill="url(#haloDim)"/><circle cx="815" cy="445" r="5" fill="#bcd6ee"/>
+  <circle cx="300" cy="120" r="26" fill="url(#haloCopper)"/><circle cx="300" cy="120" r="4" fill="#e7c49a"/>
+  <circle cx="900" cy="520" r="28" fill="url(#haloDim)"/><circle cx="900" cy="520" r="4" fill="#bcd6ee"/>
+  <circle cx="320" cy="500" r="24" fill="url(#haloDim)"/><circle cx="320" cy="500" r="4" fill="#bcd6ee"/>
+  <circle cx="880" cy="110" r="30" fill="url(#haloDim)"/><circle cx="880" cy="110" r="4" fill="#bcd6ee"/>
+
+  <!-- luminous center with discreet Ethereum logo -->
+  <circle cx="600" cy="315" r="120" fill="url(#center)"/>
+  <g transform="translate(600,305) scale(1.5)" opacity="0.72">
+    <path d="M0,-42 L22,-4 L0,10 L-22,-4 Z" fill="#8fbce6" fill-opacity="0.85"/>
+    <path d="M0,-42 L22,-4 L0,10 Z" fill="#b9d7f0" fill-opacity="0.55"/>
+    <path d="M0,18 L22,2 L0,40 L-22,2 Z" fill="#8fbce6" fill-opacity="0.8"/>
+    <path d="M0,18 L22,2 L0,40 Z" fill="#b9d7f0" fill-opacity="0.5"/>
+  </g>
+
+  <!-- part label -->
+  <text x="600" y="410" text-anchor="middle" font-size="19" fill="#8aa0b4" letter-spacing="4" font-style="italic">PART 2</text>
+</svg>
