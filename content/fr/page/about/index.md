@@ -42,6 +42,18 @@ Une discipline de la délégation, avec la série en quatre parties *Self-Custod
 
 Une économie de l'attention publique, avec *Transversal Watchfulness*, sur ce que la DeFi ne finance toujours pas : les structures qui observent le système sans appartenir à aucune de ses parties.
 
+## Par où commencer
+
+Trois portes d'entrée, selon ce qui vous amène.
+
+Si la gouvernance des collectifs ouverts vous occupe : [Le doux pouvoir : gouverner sans contraindre](/fr/post/le-doux-pouvoir/).
+
+Si vous cherchez des cadres pour évaluer les protocoles au-delà des dashboards : [La DeFi voit tout mais s'oriente mal](/fr/post/public-grammar-of-risk/), puis [La cohérence est un bien rare](/fr/post/coherence-bien-rare/).
+
+Si vous suivez la recomposition institutionnelle d'Ethereum : le diptyque [Anatomie d'un retrait](/fr/post/anatomie-du-retrait/) et [Qui capte le vide](/fr/post/qui-capte-le-vide/).
+
+Le reste du corpus dialogue avec ces trois fils : chaque article est autonome, mais les concepts circulent de l'un à l'autre.
+
 ## Vigilance transversale
 
 L'écosystème a appris à financer une partie de sa couche d'observation : fournisseurs de risque rémunérés par les DAO qu'ils analysent, sociétés de sécurité sous contrat, cabinets d'audit sous rétention. Ce travail est sérieux et utile, mais il sert un payeur identifié.

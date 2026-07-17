@@ -42,6 +42,18 @@ A discipline of delegation, with the four-part series *Self-Custody, But How Far
 
 An economy of public attention, with *Transversal Watchfulness*, on what DeFi still does not fund: the structures that observe the system without belonging to any of its parts.
 
+## Where to Start
+
+Three doors in, depending on what brings you here.
+
+If the governance of open collectives is your question: [How Can an Open Collective Hold Together?](/en/post/gentle-power/).
+
+If you are looking for frameworks to evaluate protocols beyond dashboards: [More Dashboards, Less Wisdom? The DeFi Paradox.](/en/post/public-grammar-of-risk/), then [Coherence is the scarce good](/en/post/coherence-the-scarce-good/).
+
+If you are following Ethereum's institutional recomposition: the diptych [Anatomy of a Withdrawal](/en/post/anatomy-of-a-withdrawal/) and [Who Captures the Void](/en/post/who-captures-the-void/).
+
+The rest of the corpus is in conversation with these three threads: each piece stands alone, but the concepts travel between them.
+
 ## Transversal watchfulness
 
 The ecosystem has learned to fund part of its observation layer: risk providers paid by the DAOs they analyze, security firms under commercial contract, audit shops with retainers. This work is serious and useful, but it serves an identified payer.
