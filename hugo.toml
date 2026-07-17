@@ -3,7 +3,8 @@ title = "Arem"
 theme = "stack"
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
-paginate = 10
+[pagination]
+  pagerSize = 10
 
 [taxonomies]
   tag = "tags"
@@ -16,7 +17,7 @@ paginate = 10
     title = "Arem"
     contentDir = "content/fr"
     [languages.fr.params]
-      description = "Analyse DeFi indépendante"
+      description = "Lectures critiques à l'intersection de la philosophie et de la DeFi"
 
   [languages.en]
     languageName = "English"
@@ -24,7 +25,7 @@ paginate = 10
     title = "Arem"
     contentDir = "content/en"
     [languages.en.params]
-      description = "Independent DeFi Analysis"
+      description = "Critical readings at the intersection of philosophy and DeFi"
 
 [languages.fr.menu]
   [[languages.fr.menu.social]]
@@ -115,10 +116,6 @@ paginate = 10
       local = true
       src = "img/avatar.png"
 
-  [params.comments]
-    enabled = true
-      local = true
-      src = "img/avatar.png"
 
   [params.colorScheme]
     toggle = true
