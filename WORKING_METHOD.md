@@ -91,6 +91,37 @@ These conventions are **non-negotiable**. They were established through specific
 - Card background: `#1c2530`
 - Separator: `#2a3542`
 
+### Series navigation (shortcode)
+
+- Any series article carries `series: "<name>"` in its front matter and `{{< series >}}` at the end of the body.
+- `layouts/shortcodes/series.html` auto-lists all articles sharing the same `series` value, sorted by date (the 10:00-13:00 hours encode internal order), current article unlinked, bilingual labels, scoped to the current language.
+
+### Em-dash lint
+
+- Pre-commit hook checks **added lines only** (non-retroactive by construction): `scripts/check-emdash.sh`.
+- Reinstall after any fresh clone: `printf '#!/bin/sh\nexec ./scripts/check-emdash.sh\n' > .git/hooks/pre-commit && chmod +x .git/hooks/pre-commit`
+
+### Image compression
+
+- Every new cover goes through `pngquant --quality=70-95` after generation. `generate-covers.py` outputs needlessly heavy PNG-24; quantization divides weight by ~20 with no visible loss on the Intensity B charter.
+- Files in `static/` bypass Hugo image processing entirely — compress them at the source (avatar incident: 1.6 MB served on every page).
+
+### Theme head overrides — single injection point
+
+- `themes/stack/layouts/_partials/head/custom.html` is the **only** place for head-level additions. Currently holds: Umami script, hreflang alternates, read-tracking events. Do not create parallel override files.
+
+### Analytics
+
+- Umami's native bounce rate and visit duration are measurement artefacts on a one-page-per-visit blog (duration is only measured between successive pageviews). Read the `read-30s` and `scroll-75` events instead.
+
+### Legacy slug exception (March-April 2026 corpus)
+
+- `pharos-watch-analysis`, `public-grammar-of-risk` and `le-doux-pouvoir` share the same bundle folder name across FR/EN (translation pairing by path, not `translationKey`), so some FR URLs carry English slugs. Documented exception — do not "fix" retroactively. All newer articles use distinct folders plus `translationKey`.
+
+### vercel.json
+
+- Holds `HUGO_VERSION`, the security headers (`X-Content-Type-Options`, `X-Frame-Options`), and the server-side root redirect `/` → `/en/` (308).
+
 ### Commit messages
 
 - Prefix with `chore:`, `feat:`, `fix:`, `docs:`, or `refactor:`
@@ -185,6 +216,9 @@ These are concrete traps discovered through past incidents. Worth reading before
 - **Sidebar overrides** (e.g., menu padding) must go as inline styles in `themes/stack/layouts/_partials/sidebar/left.html`. SCSS and external stylesheets do not reliably override Stack's compiled CSS.
 - **In-article language switcher** is intentionally disabled via `$showTranslations := false`.
 - **Footer credits** removed via root-level override at `layouts/partials/footer/footer.html`.
+- **Vercel legacy `routes` is incompatible with `headers`** in `vercel.json`. The deployment fails and production silently stays on the previous build. Use the modern `rewrites` / `redirects` syntax instead.
+- **A `rewrites` rule for `/` does not fire if a root `index.html` exists** (Hugo's meta-refresh stub is served first). A server-side `redirects` entry (308) is the reliable way to send `/` to `/en/` — and it consolidates Umami stats onto a single path.
+- **`curl` checks against production can hit stale edge or local caches.** A zero right after a deploy is not proof of failure: wait, retest, and confirm the deployment status in the Vercel dashboard before diagnosing a rollback.
 
 ---
 
@@ -232,9 +266,3 @@ Expect `200`. Vercel redeploys automatically on push; allow ~30 seconds.
 ## One-line operating principle
 
 > Do not act quickly on apparent simplicity. First verify whether the request is truly local or actually a multi-system compatibility problem, then implement the smallest clean solution and protect it with the smallest credible validation.
-
-## Shortcode series (navigation de série)
-- Tout article de série porte `series: "<nom>"` dans son front matter et `{{< series >}}` en fin de corps.
-- Le shortcode (layouts/shortcodes/series.html) liste automatiquement les articles partageant le même `series`, triés par date (heures 10:00-13:00 = ordre interne), article courant non cliquable, bilingue automatique, portée limitée à la langue courante.
-- Lint em-dash : contrôle les lignes ajoutées uniquement (scripts/check-emdash.sh, hook pre-commit). Réinstaller après un clone : printf '#!/bin/sh\nexec ./scripts/check-emdash.sh\n' > .git/hooks/pre-commit && chmod +x .git/hooks/pre-commit
-- Compression images : toute nouvelle cover passe par pngquant --quality=70-95 après génération (generate-covers.py produit du PNG-24 inutilement lourd, division par ~20 sans perte visible sur la charte Intensity B).
