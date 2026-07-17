@@ -10,6 +10,7 @@ tags:
   - DeFi
 toc: false
 translationKey: "series-self-custody-part1"
+series: "self-custody"
 categories:
   - Série
 image: "cover.png"
@@ -109,3 +110,5 @@ Elle l’est déjà, et presque trop bien.
 Nous savons désormais où se situe la faille. Car une culture de la self-custody qui ne se demanderait pas ce qu’elle remet à des intermédiaires cognitifs manquerait peut-être l’étape la plus décisive de son propre développement.
 
 Reste à savoir comment vivre cette époque sans tomber ni dans l’enthousiasme sans bornes ni dans le refus stérile. Le texte suivant part de là : *retrouver une discipline de la délégation assez ferme pour être réelle, assez simple pour rester praticable.*
+
+{{< series >}}

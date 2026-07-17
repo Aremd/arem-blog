@@ -232,3 +232,8 @@ Expect `200`. Vercel redeploys automatically on push; allow ~30 seconds.
 ## One-line operating principle
 
 > Do not act quickly on apparent simplicity. First verify whether the request is truly local or actually a multi-system compatibility problem, then implement the smallest clean solution and protect it with the smallest credible validation.
+
+## Shortcode series (navigation de série)
+- Tout article de série porte `series: "<nom>"` dans son front matter et `{{< series >}}` en fin de corps.
+- Le shortcode (layouts/shortcodes/series.html) liste automatiquement les articles partageant le même `series`, triés par date (heures 10:00-13:00 = ordre interne), article courant non cliquable, bilingue automatique, portée limitée à la langue courante.
+- Lint em-dash : contrôle les lignes ajoutées uniquement (scripts/check-emdash.sh, hook pre-commit). Réinstaller après un clone : printf '#!/bin/sh\nexec ./scripts/check-emdash.sh\n' > .git/hooks/pre-commit && chmod +x .git/hooks/pre-commit

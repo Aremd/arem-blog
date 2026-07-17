@@ -10,6 +10,7 @@ tags:
   - Agents
 toc: false
 translationKey: "series-self-custody-part3"
+series: "self-custody"
 categories:
   - Série
 image: "cover.png"
@@ -212,3 +213,5 @@ C’est sans doute là que se joue la suite la plus sérieuse de la promesse de 
 
 *Il ne s'agit pas seulement protéger ce que nous possédons.
 Mais apprendre à ne pas céder trop vite ce qui nous permet encore d’agir.*
+
+{{< series >}}

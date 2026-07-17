@@ -10,6 +10,7 @@ tags:
   - DeFi
 toc: false
 translationKey: "series-self-custody-intro"
+series: "self-custody"
 date: "2026-04-13T10:00:00+00:00"
 image: "cover.png"
 categories:
@@ -72,3 +73,5 @@ The practical and philosophical core of the series: how to distinguish assistanc
 ### 3. [DeFi as a Laboratory of Delegation](/en/post/defi-as-a-laboratory-of-delegation/)
 
 The proving ground: dashboards, wrappers, agents, vibe coding — and then two contrasting cases, Money League and Polaris, that make the problem impossible to miss.
+
+{{< series >}}

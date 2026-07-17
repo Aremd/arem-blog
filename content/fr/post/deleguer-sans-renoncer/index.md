@@ -10,6 +10,7 @@ tags:
   - Philosophy
 toc: false
 translationKey: "series-self-custody-part2"
+series: "self-custody"
 categories:
   - Série
 image: "cover.png"
@@ -145,3 +146,5 @@ Cela suppose moins une pureté qu’une tenue.
 Moins une morale grandiose qu’un art des limites.
 
 Le troisième texte déplace cette question sur son terrain d’épreuve le plus net : la DeFi, où toute délégation finit par prendre la forme d’une permission, d’une borne, d’un risque ou d’une architecture.
+
+{{< series >}}

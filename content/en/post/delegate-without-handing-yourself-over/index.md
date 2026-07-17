@@ -10,6 +10,7 @@ tags:
   - Philosophy
 toc: false
 translationKey: "series-self-custody-part2"
+series: "self-custody"
 date: "2026-04-13T12:00:00+00:00"
 image: "cover.png"
 categories:
@@ -143,3 +144,5 @@ That calls for less purity than poise.
 Less grand moralizing than an art of limits.
 
 The third piece moves the question onto its sharpest testing ground: DeFi, where every delegation eventually takes the form of a permission, a bound, a risk, or an architecture.
+
+{{< series >}}

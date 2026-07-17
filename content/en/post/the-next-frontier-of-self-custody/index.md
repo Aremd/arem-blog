@@ -10,6 +10,7 @@ tags:
   - DeFi
 toc: false
 translationKey: "series-self-custody-part1"
+series: "self-custody"
 date: "2026-04-13T11:00:00+00:00"
 image: "cover.png"
 categories:
@@ -117,3 +118,5 @@ We now know where the fault line runs.
 A culture of self-custody that never asks what it is handing over to cognitive intermediaries may end up missing the most important stage of its own development.
 
 The next piece starts from there: how to recover a discipline of delegation firm enough to matter and simple enough to use.
+
+{{< series >}}

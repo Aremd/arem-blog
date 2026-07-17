@@ -10,6 +10,7 @@ tags:
   - Agents
 toc: false
 translationKey: "series-self-custody-part3"
+series: "self-custody"
 date: "2026-04-13T13:00:00+00:00"
 image: "cover.png"
 categories:
@@ -212,3 +213,5 @@ That is where the most serious continuation of crypto’s promise may now lie.
 
 Not only in protecting what we own.
 But in learning not to surrender too quickly what still allows us to act.
+
+{{< series >}}

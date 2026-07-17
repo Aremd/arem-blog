@@ -1,0 +1,24 @@
+{{- $name := .Page.Params.series -}}
+{{- if $name -}}
+{{- $pages := where .Site.RegularPages "Params.series" $name -}}
+{{- $pages = $pages.ByDate -}}
+<nav class="series-nav">
+  <div class="series-nav-title">{{ if eq .Page.Language.Lang "fr" }}Dans cette série{{ else }}In this series{{ end }}</div>
+  <ol>
+    {{- range $pages -}}
+    {{- if eq .Permalink $.Page.Permalink -}}
+    <li><span aria-current="page">{{ .Title }}</span></li>
+    {{- else -}}
+    <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+    {{- end -}}
+    {{- end -}}
+  </ol>
+</nav>
+<style>
+.series-nav { margin: 2.5rem 0 0; padding: 1.2rem 1.5rem; background: var(--card-background); border-radius: var(--card-border-radius); box-shadow: var(--shadow-l1); }
+.series-nav-title { font-size: 1.4rem; font-weight: 700; margin-bottom: .6rem; color: var(--card-text-color-main); }
+.series-nav ol { margin: 0; padding-left: 2rem; }
+.series-nav li { margin: .3rem 0; font-size: 1.4rem; }
+.series-nav li span { font-weight: 600; }
+</style>
+{{- end -}}

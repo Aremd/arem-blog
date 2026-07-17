@@ -10,6 +10,7 @@ tags:
   - DeFi
 toc: false
 translationKey: "series-self-custody-intro"
+series: "self-custody"
 categories:
   - Série
 image: "cover.png"
@@ -72,3 +73,5 @@ Le cœur pratique et philosophique de la série : distinguer assistance, délég
 ### 3. [La DeFi, laboratoire de la délégation](/fr/post/defi-laboratoire-de-la-delegation/)
 
 Le terrain d’épreuve : dashboards, wrappers, agents, vibe coding, puis deux cas contrastés — Money League et Polaris — pour rendre le problème visible.
+
+{{< series >}}
