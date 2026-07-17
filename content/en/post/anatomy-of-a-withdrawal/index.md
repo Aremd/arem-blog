@@ -28,12 +28,14 @@ The chronology speaks for itself.
 
 - On June 18, Hsiao-Wei Wang steps down from the executive leadership of the [Ethereum Foundation](https://blog.ethereum.org/2026/06/23/ef-structure).
 - On June 23, the Foundation unveils its new structure. Headcount falls to roughly 226 people, the annual budget is cut by 40 percent, and one goal is now stated plainly: by 2030, to live like an endowment, spending no more than about 5 percent of its reserves a year, against nearly three times that before.
-- The same day brings a framework for assessing the organizations meant to grow outside the Foundation. In the same motion, [Ethlabs](https://ethlabs.org/) is born, a research lab whose funding no longer rests on a shared treasury but on private capital.
+- The day before, on June 22, came a framework for assessing the organizations meant to grow outside the Foundation. In the same motion, [Ethlabs](https://ethlabs.org/) is born, a research lab whose funding no longer rests on a shared treasury but on private capital.
 - Two further texts set the tone. In [a post on X](https://x.com/VitalikButerin/status/2069431500035023121), Vitalik Buterin owns the sacrifices this reorganization demands and restates his preference for a deliberately minimal protocol, in the spirit of Bitcoin. A few days earlier, [Trent Van Epps](https://x.com/trent_vanepps/status/2067593124398989551), a former Foundation member, estimated that roughly 30 million dollars in annual funding for protocol development could vanish, leaving a shortfall he puts near 20 million and opening a period of real strain in the months ahead.
 
 No single one of these announcements is a historic event. Together, they tell a perfectly coherent story.
 
 **Subtraction is not the byproduct of a budget constraint, it becomes a doctrine of government.**
+
+The opposite objection deserves to be met rather than brushed aside. A treasury held mostly in ETH, far below its 2025 record, looks like a financial constraint, and cutting spending from 15 to 5 percent can be read as a survival response. But constraint and doctrine do not exclude each other: the constraint set the calendar, the doctrine set the form. A mere austerity cure would have required neither an endowment model, nor a framework for evaluating spun-out structures, nor an organized dispersal of execution; it is that architecture, superfluous for saving money, that signs the doctrine.
 
 For more than a decade, the Foundation served as the ecosystem's lender of last resort: it funded research, backed developers, sustained initiatives many of which would not have survived without it. Now it seeks less to grow the ecosystem than to secure its own permanence. Its ambition is no longer to be the engine of the system, but to remain its institutional conscience.
 
@@ -112,7 +114,7 @@ One exception qualifies this picture and is worth noting. The [Ethereum Communit
 
 **The organization fragments, yet collective memory, networks of trust, and part of the cognitive power remain tightly concentrated.** Eight organizations now exist, and still they largely speak the same language.
 
-The movement does not stop at eight. On July 1, a ninth structure was born, [Ethereum Institutional](https://www.ethereuminstitutional.org/mission), which presents itself as the front door for financial institutions into the ecosystem. Its three founders come from the Foundation's Enterprise team, and its initial backers are exactly those of Ethlabs, Bitmine, Sharplink, and Joe Lubin. **One more structure does not dilute the cohort, it confirms it: same origin, same capital, a new function.** The same day, the Foundation published a [case for Ethereum's neutrality for governments and institutions](https://blog.ethereum.org/2026/07/01/ethereum-for-institutions), a sign that it is stepping back from execution without giving up the narrative.
+The movement does not stop at eight. On July 1, a ninth structure was born, [Ethereum Institutional](https://www.ethereuminstitutional.org/mission), which presents itself as the front door for financial institutions into the ecosystem. Its three founders come from the Foundation's Enterprise team, and its initial backers overlap with those of Ethlabs: Bitmine, Sharplink, and Joe Lubin. **One more structure does not dilute the cohort, it confirms it: same origin, same capital, a new function.** The same day, the Foundation published a [case for Ethereum's neutrality for governments and institutions](https://blog.ethereum.org/2026/07/01/ethereum-for-institutions), a sign that it is stepping back from execution without giving up the narrative.
 
 ## The hidden map
 
