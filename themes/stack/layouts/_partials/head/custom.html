@@ -13,3 +13,19 @@
 <link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}">
 {{ end }}
 {{ end }}
+<script>
+(function () {
+  if (!document.querySelector('.article-content')) return;
+  var sent = {};
+  function track(name) {
+    if (sent[name] || !window.umami) return;
+    sent[name] = true;
+    umami.track(name);
+  }
+  setTimeout(function () { track('read-30s'); }, 30000);
+  window.addEventListener('scroll', function () {
+    var d = (window.scrollY + window.innerHeight) / document.body.scrollHeight;
+    if (d > 0.75) track('scroll-75');
+  }, { passive: true });
+})();
+</script>
