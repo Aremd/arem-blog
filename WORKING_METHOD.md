@@ -237,3 +237,4 @@ Expect `200`. Vercel redeploys automatically on push; allow ~30 seconds.
 - Tout article de série porte `series: "<nom>"` dans son front matter et `{{< series >}}` en fin de corps.
 - Le shortcode (layouts/shortcodes/series.html) liste automatiquement les articles partageant le même `series`, triés par date (heures 10:00-13:00 = ordre interne), article courant non cliquable, bilingue automatique, portée limitée à la langue courante.
 - Lint em-dash : contrôle les lignes ajoutées uniquement (scripts/check-emdash.sh, hook pre-commit). Réinstaller après un clone : printf '#!/bin/sh\nexec ./scripts/check-emdash.sh\n' > .git/hooks/pre-commit && chmod +x .git/hooks/pre-commit
+- Compression images : toute nouvelle cover passe par pngquant --quality=70-95 après génération (generate-covers.py produit du PNG-24 inutilement lourd, division par ~20 sans perte visible sur la charte Intensity B).
