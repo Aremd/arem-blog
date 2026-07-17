@@ -1,6 +1,6 @@
 ---
 title: "Transversal Watchfulness"
-description: "What DeFi still does not fund"
+description: "DeFi funds audits, bounties, and dashboards. It still does not fund the watchfulness that crosses protocol lines."
 date: 2026-04-23
 slug: transversal-watchfulness
 translationKey: "transversal-watchfulness"

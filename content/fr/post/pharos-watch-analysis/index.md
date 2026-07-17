@@ -1,7 +1,7 @@
 ---
 title: "Pharos, l’observatoire qui manquait au marché des stablecoins"
 socialTitle: "Pharos, l'observatoire des stablecoins qui manquait"
-description: "Réflexion"
+description: "Pourquoi le marché des stablecoins avait besoin d'un observatoire, ce que Pharos apporte, et le conflit d'intérêt à surveiller."
 date: 2026-03-20
 slug: pharos-the-stablecoin-observatory
 tags:

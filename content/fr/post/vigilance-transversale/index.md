@@ -1,6 +1,6 @@
 ---
 title: "La vigilance transversale"
-description: "Ce que la DeFi ne finance pas"
+description: "La DeFi finance les audits, les bounties et les dashboards. Elle ne finance toujours pas la vigilance qui traverse les protocoles."
 date: 2026-04-23
 slug: vigilance-transversale
 translationKey: "transversal-watchfulness"

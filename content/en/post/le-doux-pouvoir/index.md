@@ -1,7 +1,7 @@
 ---
 title: How Can an Open Collective Hold Together?
 socialTitle: What Holds an Open Collective Together?
-description: "A free reflection on governance, legitimacy, and collective order"
+description: "Why voting and incentives cannot hold an open collective together, and what actually does."
 date: 2026-03-22
 slug: gentle-power
 tags:

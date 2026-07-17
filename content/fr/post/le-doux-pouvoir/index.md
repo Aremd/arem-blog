@@ -1,7 +1,7 @@
 ---
 title: "Le doux pouvoir : gouverner sans contraindre"
 socialTitle: "Le doux pouvoir : gouverner sans contraindre"
-description: "Réflexion libre"
+description: "Pourquoi votes et incitations ne suffisent pas à tenir un collectif ouvert, et ce qui le tient vraiment."
 date: 2026-03-22
 slug: le-doux-pouvoir
 tags:
