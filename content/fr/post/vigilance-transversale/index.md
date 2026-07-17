@@ -3,6 +3,8 @@ title: "La vigilance transversale"
 description: "Ce que la DeFi ne finance pas"
 date: 2026-04-23
 slug: vigilance-transversale
+translationKey: "transversal-watchfulness"
+categories: ["Editorial"]
 tags:
   - DeFi
   - Governance

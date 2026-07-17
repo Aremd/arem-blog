@@ -3,6 +3,8 @@ title: "Transversal Watchfulness"
 description: "What DeFi still does not fund"
 date: 2026-04-23
 slug: transversal-watchfulness
+translationKey: "transversal-watchfulness"
+categories: ["Editorial"]
 tags:
   - DeFi
   - Governance
