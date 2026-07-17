@@ -7,3 +7,9 @@
   padding-left: 70px !important;
 }
 </style>
+{{ if .IsTranslated }}
+<link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}">
+{{ range .Translations }}
+<link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}">
+{{ end }}
+{{ end }}
