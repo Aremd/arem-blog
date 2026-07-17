@@ -41,6 +41,12 @@ defaultContentLanguageInSubdir = true
     weight = 2
     [languages.fr.menu.social.params]
       icon = "brand-telegram"
+  [[languages.fr.menu.social]]
+    name = "RSS"
+    url = "/fr/index.xml"
+    weight = 3
+    [languages.fr.menu.social.params]
+      icon = "rss"
   [[languages.fr.menu.main]]
     name = "Accueil"
     url = "/fr/"
@@ -54,6 +60,13 @@ defaultContentLanguageInSubdir = true
     weight = 3
     [languages.fr.menu.main.params]
       icon = "search"
+
+  [[languages.fr.menu.main]]
+    name = "Archives"
+    url = "/fr/page/archives/"
+    weight = 2
+    [languages.fr.menu.main.params]
+      icon = "archives"
 
   [[languages.fr.menu.main]]
     name = "A propos"
@@ -76,6 +89,12 @@ defaultContentLanguageInSubdir = true
     weight = 2
     [languages.en.menu.social.params]
       icon = "brand-telegram"
+  [[languages.en.menu.social]]
+    name = "RSS"
+    url = "/en/index.xml"
+    weight = 3
+    [languages.en.menu.social.params]
+      icon = "rss"
   [[languages.en.menu.main]]
     name = "Home"
     url = "/en/"
@@ -89,6 +108,13 @@ defaultContentLanguageInSubdir = true
     weight = 3
     [languages.en.menu.main.params]
       icon = "search"
+
+  [[languages.en.menu.main]]
+    name = "Archives"
+    url = "/en/page/archives/"
+    weight = 2
+    [languages.en.menu.main.params]
+      icon = "archives"
 
   [[languages.en.menu.main]]
     name = "About"
