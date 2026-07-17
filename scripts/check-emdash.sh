@@ -1,8 +1,11 @@
 #!/bin/sh
-files=$(git diff --cached --name-only --diff-filter=ACM | grep '^content/.*\.md$')
-[ -z "$files" ] && exit 0
-found=$(grep -l '—' $files 2>/dev/null)
-if [ -n "$found" ]; then
-  echo "Em-dash détecté dans :" && echo "$found"
+# Lint em-dash : lignes AJOUTEES uniquement (non retroactif par construction).
+added=$(git diff --cached -U0 -- content | grep '^+' | grep -v '^+++' | grep '—' || true)
+if [ -n "$added" ]; then
+  echo "Em-dash dans les lignes ajoutees :"
+  echo "$added" | cut -c1-120
+  echo ""
+  echo "Corriger selon le contexte : virgule, parentheses ou deux-points."
   exit 1
 fi
+exit 0
